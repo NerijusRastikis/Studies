@@ -1,0 +1,15 @@
+C:\Projects\dotnet\Paskaitos_5\OOP_3\bin\Debug\net8.0\OOP_3.exe
+C:\Projects\dotnet\Paskaitos_5\OOP_3\bin\Debug\net8.0\OOP_3.deps.json
+C:\Projects\dotnet\Paskaitos_5\OOP_3\bin\Debug\net8.0\OOP_3.runtimeconfig.json
+C:\Projects\dotnet\Paskaitos_5\OOP_3\bin\Debug\net8.0\OOP_3.dll
+C:\Projects\dotnet\Paskaitos_5\OOP_3\bin\Debug\net8.0\OOP_3.pdb
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.AssemblyInfoInputs.cache
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.AssemblyInfo.cs
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.csproj.CoreCompileInputs.cache
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.sourcelink.json
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.dll
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\refint\OOP_3.dll
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.pdb
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\OOP_3.genruntimeconfig.cache
+C:\Projects\dotnet\Paskaitos_5\OOP_3\obj\Debug\net8.0\ref\OOP_3.dll

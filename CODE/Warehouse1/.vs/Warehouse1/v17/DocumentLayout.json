@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\medicalitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\medicalitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\weaponitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\weaponitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\warehouse1\\warehouse1\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB47CEF1-264C-447D-A78B-5D43F08E631B}|Warehouse1\\Warehouse1.csproj|solutionrelative:warehouse1\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Display.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\Display.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\Display.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\Display.cs",
+              "RelativeToolTip": "Warehouse1\\Display.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAkwJEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:20:47.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicalItem.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\MedicalItem.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\MedicalItem.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\MedicalItem.cs",
+              "RelativeToolTip": "Warehouse1\\MedicalItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:50:51.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeaponItem.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\WeaponItem.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\WeaponItem.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\WeaponItem.cs",
+              "RelativeToolTip": "Warehouse1\\WeaponItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:50:31.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\FoodItem.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\FoodItem.cs",
+              "RelativeToolTip": "Warehouse1\\FoodItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:50:02.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\InventoryItem.cs",
+              "RelativeToolTip": "Warehouse1\\InventoryItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:48:08.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\Warehouse.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\Warehouse.cs",
+              "RelativeToolTip": "Warehouse1\\Warehouse.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:45:21.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\Program.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\Program.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Warehouse1\\Warehouse1\\Program.cs",
+              "RelativeToolTip": "Warehouse1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:30:27.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

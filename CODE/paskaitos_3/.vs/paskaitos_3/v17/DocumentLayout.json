@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\dotnet\\paskaitos_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F976193B-8FAF-4A02-ADDA-87D0B1BABF03}|ketvirta\\ketvirta.csproj|c:\\projects\\dotnet\\paskaitos_3\\ketvirta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F976193B-8FAF-4A02-ADDA-87D0B1BABF03}|ketvirta\\ketvirta.csproj|solutionrelative:ketvirta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F052DF1-DA2C-4FB3-A1AE-443FFB987E41}|ketvirtaTests\\ketvirtaTests.csproj|c:\\projects\\dotnet\\paskaitos_3\\ketvirtatests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F052DF1-DA2C-4FB3-A1AE-443FFB987E41}|ketvirtaTests\\ketvirtaTests.csproj|solutionrelative:ketvirtatests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5670D6E7-8097-4853-AB16-9DF8F8AAE2BE}|trecia\\trecia.csproj|c:\\projects\\dotnet\\paskaitos_3\\trecia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5670D6E7-8097-4853-AB16-9DF8F8AAE2BE}|trecia\\trecia.csproj|solutionrelative:trecia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D193E500-6BC1-4AED-852C-A60DAD344A31}|antraTests\\antraTests.csproj|c:\\projects\\dotnet\\paskaitos_3\\antratests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D193E500-6BC1-4AED-852C-A60DAD344A31}|antraTests\\antraTests.csproj|solutionrelative:antratests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45F1552-D2EB-48B5-AAEC-54AB2C9ECE80}|antra\\antra.csproj|c:\\projects\\dotnet\\paskaitos_3\\antra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45F1552-D2EB-48B5-AAEC-54AB2C9ECE80}|antra\\antra.csproj|solutionrelative:antra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProgramTests.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\paskaitos_3\\ketvirtaTests\\ProgramTests.cs",
+              "RelativeDocumentMoniker": "ketvirtaTests\\ProgramTests.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\paskaitos_3\\ketvirtaTests\\ProgramTests.cs",
+              "RelativeToolTip": "ketvirtaTests\\ProgramTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:39:57.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\paskaitos_3\\ketvirta\\Program.cs",
+              "RelativeDocumentMoniker": "ketvirta\\Program.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\paskaitos_3\\ketvirta\\Program.cs",
+              "RelativeToolTip": "ketvirta\\Program.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAowB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T18:19:10.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\paskaitos_3\\trecia\\Program.cs",
+              "RelativeDocumentMoniker": "trecia\\Program.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\paskaitos_3\\trecia\\Program.cs",
+              "RelativeToolTip": "trecia\\Program.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAowKsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:59:23.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgramTests.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\paskaitos_3\\antraTests\\ProgramTests.cs",
+              "RelativeDocumentMoniker": "antraTests\\ProgramTests.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\paskaitos_3\\antraTests\\ProgramTests.cs",
+              "RelativeToolTip": "antraTests\\ProgramTests.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAzwC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:34:45.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\paskaitos_3\\antra\\Program.cs",
+              "RelativeDocumentMoniker": "antra\\Program.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\paskaitos_3\\antra\\Program.cs",
+              "RelativeToolTip": "antra\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T15:01:22.469Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

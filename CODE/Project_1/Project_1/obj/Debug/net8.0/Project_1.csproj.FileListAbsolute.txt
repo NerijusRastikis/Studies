@@ -1,0 +1,15 @@
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\bin\Debug\net8.0\Project_1.exe
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\bin\Debug\net8.0\Project_1.deps.json
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\bin\Debug\net8.0\Project_1.runtimeconfig.json
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\bin\Debug\net8.0\Project_1.dll
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\bin\Debug\net8.0\Project_1.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.AssemblyInfoInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.AssemblyInfo.cs
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.csproj.CoreCompileInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.sourcelink.json
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.dll
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\refint\Project_1.dll
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\Project_1.genruntimeconfig.cache
+C:\Users\nerij\Documents\GitHub\dotnet\Project_1\Project_1\obj\Debug\net8.0\ref\Project_1.dll

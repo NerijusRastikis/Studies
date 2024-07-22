@@ -1,0 +1,15 @@
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\bin\Debug\net8.0\OOP_2.exe
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\bin\Debug\net8.0\OOP_2.deps.json
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\bin\Debug\net8.0\OOP_2.runtimeconfig.json
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\bin\Debug\net8.0\OOP_2.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\bin\Debug\net8.0\OOP_2.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.AssemblyInfoInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.AssemblyInfo.cs
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.csproj.CoreCompileInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.sourcelink.json
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\refint\OOP_2.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\OOP_2.genruntimeconfig.cache
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_2\obj\Debug\net8.0\ref\OOP_2.dll

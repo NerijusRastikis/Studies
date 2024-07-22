@@ -1,0 +1,13 @@
+﻿
+Šiame projekte sukursite programą, kuri tvarkys Doomsday Warehouse inventorių, naudodama paveldėjimą ir System.IO.File klasę.
+
+Programa leis pridėti naujus dalykus į inventorių, išsaugoti inventoriaus informaciją faile ir ją nuskaityti iš failo.
+- Sukurkite generinę klasę Warehouse<T>, kuri saugos skirtingų tipų prekes.
+- Sukurkite abstrakčią bazinę klasę InventoryItem, kuri apibrėžia bendrus inventoriaus elementų atributus - daikto svorį.
+- Sukurkite kelias klases, paveldinčias iš abstrakčios klasės InventoryItem, pavyzdžiui: FoodItem, WeaponItem ir MedicalItem.
+- Maistas turi papildomus atributus - galiojimo datą ir kalorijas, ginklai - žalos dydį, medicinina - galiojimo datą ir ligų sąrašą nuo kurių gydo (string).
+- Skirtingi inventoriai turi būti saugomi skirtinguose failuose csv formatu pvz: maistas.csv -> bulvės, 10kg, 2050-01-05, 500kcal dešra, 5kg, 2050-11-15, 1000kcal ir t.t.... ginklai.scv -> kalavijas, 2kg, 50dmg šautuvas, 3kg, 100dmg ir t.t....
+Sukurkite Warehouse metodą AddItem(T item) kurie leis pridėti naujus daiktus į inventorių ir išsaugos turimo inventoriaus informaciją faile.
+Sukurkite Warehouse metodą List<T> GetItems(), kuris nuskaitys inventoriaus informaciją iš failo ir grąžins visus inventoriaus elementus.
+Sukurkite Warehouse metodą T GetItem(string name), kuris grąžins vieną atitinkamą inventoriaus elementą pagal pavadinimą.
+Sukurkite 3 Warehouse klasės objektus, kuriuose saugosite skirtingų tipų (maistas, ginklai, medicina) prekes.

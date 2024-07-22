@@ -1,0 +1,17 @@
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\OOP_4.exe
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\OOP_4.deps.json
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\OOP_4.runtimeconfig.json
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\OOP_4.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\OOP_4.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.AssemblyInfoInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.AssemblyInfo.cs
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.csproj.CoreCompileInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.sourcelink.json
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\refint\OOP_4.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\OOP_4.genruntimeconfig.cache
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\obj\Debug\net8.0\ref\OOP_4.dll
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\data.txt
+C:\Users\nerij\Documents\GitHub\dotnet\OOP_4\OOP_4\bin\Debug\net8.0\contacts.csv

@@ -1,0 +1,15 @@
+C:\Projects\dotnet\paskaitos_3\antra\bin\Debug\net8.0\antra.exe
+C:\Projects\dotnet\paskaitos_3\antra\bin\Debug\net8.0\antra.deps.json
+C:\Projects\dotnet\paskaitos_3\antra\bin\Debug\net8.0\antra.runtimeconfig.json
+C:\Projects\dotnet\paskaitos_3\antra\bin\Debug\net8.0\antra.dll
+C:\Projects\dotnet\paskaitos_3\antra\bin\Debug\net8.0\antra.pdb
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.AssemblyInfoInputs.cache
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.AssemblyInfo.cs
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.csproj.CoreCompileInputs.cache
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.sourcelink.json
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.dll
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\refint\antra.dll
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.pdb
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\antra.genruntimeconfig.cache
+C:\Projects\dotnet\paskaitos_3\antra\obj\Debug\net8.0\ref\antra.dll

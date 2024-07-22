@@ -1,0 +1,15 @@
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\bin\Debug\net8.0\Pirma.exe
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\bin\Debug\net8.0\Pirma.deps.json
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\bin\Debug\net8.0\Pirma.runtimeconfig.json
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\bin\Debug\net8.0\Pirma.dll
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\bin\Debug\net8.0\Pirma.pdb
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.AssemblyInfoInputs.cache
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.AssemblyInfo.cs
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.csproj.CoreCompileInputs.cache
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.sourcelink.json
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.dll
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\refint\Pirma.dll
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.pdb
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\Pirma.genruntimeconfig.cache
+C:\Projects\dotnet\Paskaitos_5\Paskaitos_5\obj\Debug\net8.0\ref\Pirma.dll

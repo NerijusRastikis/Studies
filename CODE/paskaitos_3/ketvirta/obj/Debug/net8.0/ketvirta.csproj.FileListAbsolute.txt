@@ -1,0 +1,15 @@
+C:\Projects\dotnet\paskaitos_3\ketvirta\bin\Debug\net8.0\ketvirta.exe
+C:\Projects\dotnet\paskaitos_3\ketvirta\bin\Debug\net8.0\ketvirta.deps.json
+C:\Projects\dotnet\paskaitos_3\ketvirta\bin\Debug\net8.0\ketvirta.runtimeconfig.json
+C:\Projects\dotnet\paskaitos_3\ketvirta\bin\Debug\net8.0\ketvirta.dll
+C:\Projects\dotnet\paskaitos_3\ketvirta\bin\Debug\net8.0\ketvirta.pdb
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.AssemblyInfoInputs.cache
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.AssemblyInfo.cs
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.csproj.CoreCompileInputs.cache
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.sourcelink.json
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.dll
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\refint\ketvirta.dll
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.pdb
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ketvirta.genruntimeconfig.cache
+C:\Projects\dotnet\paskaitos_3\ketvirta\obj\Debug\net8.0\ref\ketvirta.dll

@@ -1,0 +1,14 @@
+C:\Projects\dotnet\paskaitos_2\trecia\bin\Debug\net8.0\trecia.exe
+C:\Projects\dotnet\paskaitos_2\trecia\bin\Debug\net8.0\trecia.deps.json
+C:\Projects\dotnet\paskaitos_2\trecia\bin\Debug\net8.0\trecia.runtimeconfig.json
+C:\Projects\dotnet\paskaitos_2\trecia\bin\Debug\net8.0\trecia.dll
+C:\Projects\dotnet\paskaitos_2\trecia\bin\Debug\net8.0\trecia.pdb
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.AssemblyInfoInputs.cache
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.AssemblyInfo.cs
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.csproj.CoreCompileInputs.cache
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.dll
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\refint\trecia.dll
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.pdb
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\trecia.genruntimeconfig.cache
+C:\Projects\dotnet\paskaitos_2\trecia\obj\Debug\net8.0\ref\trecia.dll

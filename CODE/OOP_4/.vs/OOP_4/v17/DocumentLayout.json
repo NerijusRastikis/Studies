@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\oop_4\\oop_4\\addressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\addressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\oop_4\\oop_4\\programui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\programui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\oop_4\\oop_4\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\oop_4\\oop_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\oop_4\\oop_4\\taskdescription.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{45ADCAB9-B91B-4D34-A839-20F9A343FED7}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\taskdescription.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProgramUI.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\ProgramUI.cs",
+              "RelativeDocumentMoniker": "OOP_4\\ProgramUI.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\ProgramUI.cs",
+              "RelativeToolTip": "OOP_4\\ProgramUI.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwC8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:18:02.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressBook.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\AddressBook.cs",
+              "RelativeDocumentMoniker": "OOP_4\\AddressBook.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\AddressBook.cs",
+              "RelativeToolTip": "OOP_4\\AddressBook.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:15:58.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\Contact.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Contact.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\Contact.cs",
+              "RelativeToolTip": "OOP_4\\Contact.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:15:08.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\Program.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Program.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\Program.cs",
+              "RelativeToolTip": "OOP_4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:13:41.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskDescription.txt",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\TaskDescription.txt",
+              "RelativeDocumentMoniker": "OOP_4\\TaskDescription.txt",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\OOP_4\\OOP_4\\TaskDescription.txt",
+              "RelativeToolTip": "OOP_4\\TaskDescription.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-08T18:47:16.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46FC9F3E-A818-4635-8FBD-CFA042697E33}|TryCatch\\TryCatch.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\trycatch\\trycatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46FC9F3E-A818-4635-8FBD-CFA042697E33}|TryCatch\\TryCatch.csproj|solutionrelative:trycatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FC9F3E-A818-4635-8FBD-CFA042697E33}|TryCatch\\TryCatch.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\trycatch\\trycatch\\readfromfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46FC9F3E-A818-4635-8FBD-CFA042697E33}|TryCatch\\TryCatch.csproj|solutionrelative:trycatch\\readfromfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FC9F3E-A818-4635-8FBD-CFA042697E33}|TryCatch\\TryCatch.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\trycatch\\trycatch\\writetofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46FC9F3E-A818-4635-8FBD-CFA042697E33}|TryCatch\\TryCatch.csproj|solutionrelative:trycatch\\writetofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReadFromFile.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\TryCatch\\ReadFromFile.cs",
+              "RelativeDocumentMoniker": "TryCatch\\ReadFromFile.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\TryCatch\\ReadFromFile.cs",
+              "RelativeToolTip": "TryCatch\\ReadFromFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:15:48.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WriteToFile.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\TryCatch\\WriteToFile.cs",
+              "RelativeDocumentMoniker": "TryCatch\\WriteToFile.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\TryCatch\\WriteToFile.cs",
+              "RelativeToolTip": "TryCatch\\WriteToFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:06:57.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\TryCatch\\Program.cs",
+              "RelativeDocumentMoniker": "TryCatch\\Program.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\TryCatch\\TryCatch\\Program.cs",
+              "RelativeToolTip": "TryCatch\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:01:38.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

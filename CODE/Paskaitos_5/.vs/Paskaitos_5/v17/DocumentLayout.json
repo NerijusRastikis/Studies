@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\dotnet\\Paskaitos_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\hooman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\hooman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|c:\\projects\\dotnet\\paskaitos_5\\oop_4\\geometricshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD49D8A4-ADDB-4961-A7F2-D4B41964EF52}|OOP_4\\OOP_4.csproj|solutionrelative:oop_4\\geometricshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hooman.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Hooman.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Hooman.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Hooman.cs",
+              "RelativeToolTip": "OOP_4\\Hooman.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:12:03.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Motorbike.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Motorbike.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Motorbike.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Motorbike.cs",
+              "RelativeToolTip": "OOP_4\\Motorbike.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:55:27.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Bus.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Bus.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Bus.cs",
+              "RelativeToolTip": "OOP_4\\Bus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:54:24.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Truck.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Truck.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Truck.cs",
+              "RelativeToolTip": "OOP_4\\Truck.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:51:09.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Vehicle.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Vehicle.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Vehicle.cs",
+              "RelativeToolTip": "OOP_4\\Vehicle.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:46:56.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Square.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Square.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Square.cs",
+              "RelativeToolTip": "OOP_4\\Square.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:18:36.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Triangle.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Triangle.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Triangle.cs",
+              "RelativeToolTip": "OOP_4\\Triangle.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:17:42.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GeometricShape.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\GeometricShape.cs",
+              "RelativeDocumentMoniker": "OOP_4\\GeometricShape.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\GeometricShape.cs",
+              "RelativeToolTip": "OOP_4\\GeometricShape.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:14:39.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Program.cs",
+              "RelativeDocumentMoniker": "OOP_4\\Program.cs",
+              "ToolTip": "C:\\Projects\\dotnet\\Paskaitos_5\\OOP_4\\Program.cs",
+              "RelativeToolTip": "OOP_4\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T15:00:04.182Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

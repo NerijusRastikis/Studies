@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3560F083-45E7-4AC5-9EAB-6C550990909F}|Extensions\\Extensions.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\extensions\\extensions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3560F083-45E7-4AC5-9EAB-6C550990909F}|Extensions\\Extensions.csproj|solutionrelative:extensions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3560F083-45E7-4AC5-9EAB-6C550990909F}|Extensions\\Extensions.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\extensions\\extensions\\myextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3560F083-45E7-4AC5-9EAB-6C550990909F}|Extensions\\Extensions.csproj|solutionrelative:extensions\\myextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3560F083-45E7-4AC5-9EAB-6C550990909F}|Extensions\\Extensions.csproj|c:\\users\\nerij\\documents\\github\\dotnet\\extensions\\extensions\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3560F083-45E7-4AC5-9EAB-6C550990909F}|Extensions\\Extensions.csproj|solutionrelative:extensions\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "text.txt",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\Extensions\\text.txt",
+              "RelativeDocumentMoniker": "Extensions\\text.txt",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\Extensions\\text.txt",
+              "RelativeToolTip": "Extensions\\text.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-18T17:06:49.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\Extensions\\MyExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\MyExtensions.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\Extensions\\MyExtensions.cs",
+              "RelativeToolTip": "Extensions\\MyExtensions.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:11:26.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\Extensions\\Program.cs",
+              "RelativeDocumentMoniker": "Extensions\\Program.cs",
+              "ToolTip": "C:\\Users\\nerij\\Documents\\GitHub\\dotnet\\Extensions\\Extensions\\Program.cs",
+              "RelativeToolTip": "Extensions\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwC8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:42:47.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

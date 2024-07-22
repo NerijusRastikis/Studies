@@ -1,0 +1,15 @@
+C:\Projects\dotnet\Project_11\Project_11\bin\Debug\net8.0\Project_11.exe
+C:\Projects\dotnet\Project_11\Project_11\bin\Debug\net8.0\Project_11.deps.json
+C:\Projects\dotnet\Project_11\Project_11\bin\Debug\net8.0\Project_11.runtimeconfig.json
+C:\Projects\dotnet\Project_11\Project_11\bin\Debug\net8.0\Project_11.dll
+C:\Projects\dotnet\Project_11\Project_11\bin\Debug\net8.0\Project_11.pdb
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.AssemblyInfoInputs.cache
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.AssemblyInfo.cs
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.csproj.CoreCompileInputs.cache
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.sourcelink.json
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.dll
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\refint\Project_11.dll
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.pdb
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\Project_11.genruntimeconfig.cache
+C:\Projects\dotnet\Project_11\Project_11\obj\Debug\net8.0\ref\Project_11.dll

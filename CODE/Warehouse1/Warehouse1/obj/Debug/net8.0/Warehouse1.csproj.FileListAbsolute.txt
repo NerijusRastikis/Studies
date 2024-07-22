@@ -1,0 +1,15 @@
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.AssemblyInfoInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.AssemblyInfo.cs
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.csproj.CoreCompileInputs.cache
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.sourcelink.json
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\bin\Debug\net8.0\Warehouse1.exe
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\bin\Debug\net8.0\Warehouse1.deps.json
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\bin\Debug\net8.0\Warehouse1.runtimeconfig.json
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\bin\Debug\net8.0\Warehouse1.dll
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\bin\Debug\net8.0\Warehouse1.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.dll
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\refint\Warehouse1.dll
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.pdb
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\Warehouse1.genruntimeconfig.cache
+C:\Users\nerij\Documents\GitHub\dotnet\Warehouse1\Warehouse1\obj\Debug\net8.0\ref\Warehouse1.dll
