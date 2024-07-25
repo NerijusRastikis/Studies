@@ -1,0 +1,15 @@
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.AssemblyInfoInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.AssemblyInfo.cs
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.csproj.CoreCompileInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.sourcelink.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\bin\Debug\net8.0\AddressBook1.exe
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\bin\Debug\net8.0\AddressBook1.deps.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\bin\Debug\net8.0\AddressBook1.runtimeconfig.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\bin\Debug\net8.0\AddressBook1.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\bin\Debug\net8.0\AddressBook1.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\refint\AddressBook1.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\AddressBook1.genruntimeconfig.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\AddressBook1\AddressBook1\obj\Debug\net8.0\ref\AddressBook1.dll

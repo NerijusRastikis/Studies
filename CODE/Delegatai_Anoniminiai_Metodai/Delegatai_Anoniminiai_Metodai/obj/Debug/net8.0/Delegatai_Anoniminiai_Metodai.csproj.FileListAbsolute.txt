@@ -1,0 +1,15 @@
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\bin\Debug\net8.0\Delegatai_Anoniminiai_Metodai.exe
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\bin\Debug\net8.0\Delegatai_Anoniminiai_Metodai.deps.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\bin\Debug\net8.0\Delegatai_Anoniminiai_Metodai.runtimeconfig.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\bin\Debug\net8.0\Delegatai_Anoniminiai_Metodai.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\bin\Debug\net8.0\Delegatai_Anoniminiai_Metodai.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.AssemblyInfoInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.AssemblyInfo.cs
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.csproj.CoreCompileInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.sourcelink.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\refint\Delegatai_Anoniminiai_Metodai.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\Delegatai_Anoniminiai_Metodai.genruntimeconfig.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Delegatai_Anoniminiai_Metodai\Delegatai_Anoniminiai_Metodai\obj\Debug\net8.0\ref\Delegatai_Anoniminiai_Metodai.dll
