@@ -1,0 +1,15 @@
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\bin\Debug\net8.0\OOP_Kartojimas1.exe
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\bin\Debug\net8.0\OOP_Kartojimas1.deps.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\bin\Debug\net8.0\OOP_Kartojimas1.runtimeconfig.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\bin\Debug\net8.0\OOP_Kartojimas1.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\bin\Debug\net8.0\OOP_Kartojimas1.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.AssemblyInfoInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.AssemblyInfo.cs
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.csproj.CoreCompileInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.sourcelink.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\refint\OOP_Kartojimas1.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\OOP_Kartojimas1.genruntimeconfig.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\OOP_Kartojimas1\OOP_Kartojimas1\obj\Debug\net8.0\ref\OOP_Kartojimas1.dll

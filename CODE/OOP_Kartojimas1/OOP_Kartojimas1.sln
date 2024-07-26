@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Kartojimas1", "OOP_Kartojimas1\OOP_Kartojimas1.csproj", "{CE61CA80-1C94-4DE1-8DA3-54E8FEFE0032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Kartojimas1Tests", "OOP_Kartojimas1Tests\OOP_Kartojimas1Tests.csproj", "{E70C7ADD-C648-499C-B12E-672EEDEF78D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE61CA80-1C94-4DE1-8DA3-54E8FEFE0032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE61CA80-1C94-4DE1-8DA3-54E8FEFE0032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE61CA80-1C94-4DE1-8DA3-54E8FEFE0032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE61CA80-1C94-4DE1-8DA3-54E8FEFE0032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70C7ADD-C648-499C-B12E-672EEDEF78D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70C7ADD-C648-499C-B12E-672EEDEF78D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70C7ADD-C648-499C-B12E-672EEDEF78D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70C7ADD-C648-499C-B12E-672EEDEF78D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF1209A3-F080-4AAF-BCFE-62279FD85F29}
+	EndGlobalSection
+EndGlobal
