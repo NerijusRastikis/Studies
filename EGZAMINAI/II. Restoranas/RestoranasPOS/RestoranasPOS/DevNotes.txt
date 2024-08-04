@@ -1,0 +1,3 @@
+http://www.patorjk.com/software/taag/#p=display&f=Rectangles&t=Cheque
+
+Galima padaryti Staliuku pridejima, atemima kaip dinamini funcionaluma

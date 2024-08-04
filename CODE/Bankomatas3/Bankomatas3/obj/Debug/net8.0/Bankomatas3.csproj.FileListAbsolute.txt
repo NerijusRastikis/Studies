@@ -1,0 +1,15 @@
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\bin\Debug\net8.0\Bankomatas3.exe
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\bin\Debug\net8.0\Bankomatas3.deps.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\bin\Debug\net8.0\Bankomatas3.runtimeconfig.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\bin\Debug\net8.0\Bankomatas3.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\bin\Debug\net8.0\Bankomatas3.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.AssemblyInfoInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.AssemblyInfo.cs
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.csproj.CoreCompileInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.sourcelink.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\refint\Bankomatas3.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\Bankomatas3.genruntimeconfig.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas3\Bankomatas3\obj\Debug\net8.0\ref\Bankomatas3.dll

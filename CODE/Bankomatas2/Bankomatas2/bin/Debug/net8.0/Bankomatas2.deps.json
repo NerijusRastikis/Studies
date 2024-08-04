@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bankomatas2/1.0.0": {
+        "runtime": {
+          "Bankomatas2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bankomatas2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

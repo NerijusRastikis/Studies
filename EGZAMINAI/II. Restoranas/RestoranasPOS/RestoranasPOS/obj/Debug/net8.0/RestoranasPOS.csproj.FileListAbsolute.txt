@@ -1,0 +1,15 @@
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\bin\Debug\net8.0\RestoranasPOS.exe
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\bin\Debug\net8.0\RestoranasPOS.deps.json
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\bin\Debug\net8.0\RestoranasPOS.runtimeconfig.json
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\bin\Debug\net8.0\RestoranasPOS.dll
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\bin\Debug\net8.0\RestoranasPOS.pdb
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.AssemblyInfoInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.AssemblyInfo.cs
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.csproj.CoreCompileInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.sourcelink.json
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.dll
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\refint\RestoranasPOS.dll
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.pdb
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\RestoranasPOS.genruntimeconfig.cache
+C:\Projects\.NET\CodeAcademy\Studies\EGZAMINAI\II. Restoranas\RestoranasPOS\RestoranasPOS\obj\Debug\net8.0\ref\RestoranasPOS.dll

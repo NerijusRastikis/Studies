@@ -1,0 +1,15 @@
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\bin\Debug\net8.0\Bankomatas2.exe
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\bin\Debug\net8.0\Bankomatas2.deps.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\bin\Debug\net8.0\Bankomatas2.runtimeconfig.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\bin\Debug\net8.0\Bankomatas2.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\bin\Debug\net8.0\Bankomatas2.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.AssemblyInfoInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.AssemblyInfo.cs
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.csproj.CoreCompileInputs.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.sourcelink.json
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\refint\Bankomatas2.dll
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.pdb
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\Bankomatas2.genruntimeconfig.cache
+C:\Projects\.NET\CodeAcademy\Studies\CODE\Bankomatas2\Bankomatas2\obj\Debug\net8.0\ref\Bankomatas2.dll

@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\bankomatosistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\bankomatosistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\consoledisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\consoledisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\credentials.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\credentials.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas1\\bankomatas1\\idisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6EED09A-1B01-45C9-984F-DEE99A02096C}|Bankomatas1\\Bankomatas1.csproj|solutionrelative:bankomatas1\\idisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\FileManager.cs",
+              "RelativeDocumentMoniker": "Bankomatas1\\FileManager.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\FileManager.cs",
+              "RelativeToolTip": "Bankomatas1\\FileManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:40:10.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDisplay.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\IDisplay.cs",
+              "RelativeDocumentMoniker": "Bankomatas1\\IDisplay.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\IDisplay.cs",
+              "RelativeToolTip": "Bankomatas1\\IDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:00:20.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Credentials.csv",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\Credentials.csv",
+              "RelativeDocumentMoniker": "Bankomatas1\\Credentials.csv",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\Credentials.csv",
+              "RelativeToolTip": "Bankomatas1\\Credentials.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-29T16:25:41.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\Login.cs",
+              "RelativeDocumentMoniker": "Bankomatas1\\Login.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\Login.cs",
+              "RelativeToolTip": "Bankomatas1\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:19:16.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankomatoSistema.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\BankomatoSistema.cs",
+              "RelativeDocumentMoniker": "Bankomatas1\\BankomatoSistema.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\BankomatoSistema.cs",
+              "RelativeToolTip": "Bankomatas1\\BankomatoSistema.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:12:31.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConsoleDisplay.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\ConsoleDisplay.cs",
+              "RelativeDocumentMoniker": "Bankomatas1\\ConsoleDisplay.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\ConsoleDisplay.cs",
+              "RelativeToolTip": "Bankomatas1\\ConsoleDisplay.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAewBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:34:40.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\Program.cs",
+              "RelativeDocumentMoniker": "Bankomatas1\\Program.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas1\\Bankomatas1\\Program.cs",
+              "RelativeToolTip": "Bankomatas1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:03:28.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

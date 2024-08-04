@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\users.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\users.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\atm_funds.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\atm_funds.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\iatm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\iatm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\ifilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\ifilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\bankomatas2\\bankomatas2\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3FC1DD-CA12-4ECD-AB6E-42C1E1984486}|Bankomatas2\\Bankomatas2.csproj|solutionrelative:bankomatas2\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "atm_funds.csv",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\atm_funds.csv",
+              "RelativeDocumentMoniker": "Bankomatas2\\atm_funds.csv",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\atm_funds.csv",
+              "RelativeToolTip": "Bankomatas2\\atm_funds.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-30T16:38:24.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "users.csv",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\users.csv",
+              "RelativeDocumentMoniker": "Bankomatas2\\users.csv",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\users.csv",
+              "RelativeToolTip": "Bankomatas2\\users.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-30T16:27:18.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IATM.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\IATM.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\IATM.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\IATM.cs",
+              "RelativeToolTip": "Bankomatas2\\IATM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:15:51.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IFileManager.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\IFileManager.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\IFileManager.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\IFileManager.cs",
+              "RelativeToolTip": "Bankomatas2\\IFileManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:15:17.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\User.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\User.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\User.cs",
+              "RelativeToolTip": "Bankomatas2\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvx0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:14:52.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\ATM.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\ATM.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\ATM.cs",
+              "RelativeToolTip": "Bankomatas2\\ATM.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:14:32.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\FileManager.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\FileManager.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\FileManager.cs",
+              "RelativeToolTip": "Bankomatas2\\FileManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:13:53.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\Transaction.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\Transaction.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\Transaction.cs",
+              "RelativeToolTip": "Bankomatas2\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:13:32.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\Program.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\Program.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\Program.cs",
+              "RelativeToolTip": "Bankomatas2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:09:12.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Display.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\Display.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\Display.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\Display.cs",
+              "RelativeToolTip": "Bankomatas2\\Display.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAvwBkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:12:53.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\IUser.cs",
+              "RelativeDocumentMoniker": "Bankomatas2\\IUser.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\Bankomatas2\\Bankomatas2\\IUser.cs",
+              "RelativeToolTip": "Bankomatas2\\IUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:16:21.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
