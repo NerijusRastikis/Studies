@@ -1,4 +1,6 @@
-﻿using RestoranasPOS.Services;
+﻿using RestoranasPOS.Interfaces;
+using RestoranasPOS.Models;
+using RestoranasPOS.Services;
 
 namespace RestoranasPOS
 {
@@ -6,7 +8,10 @@ namespace RestoranasPOS
     {
         public static void Main(string[] args)
         {
-            var restaurantPOS = new Display();
+            IDisplay display = new Display();
+            IFileManager fileManager = new FileManager();
+
+            var restaurantPOS = new POS_Logic(fileManager, display);
             restaurantPOS.Start();
         }
     }
