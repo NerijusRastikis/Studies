@@ -8,11 +8,12 @@
         int MainMenu();
         void SelectWaiter();
         void SelectTable();
-        void TakeOrder_Alko(Dictionary<string, int> alkos);
-        void TakeOrder_Cold(Dictionary<string, int> colds);
-        void TakeOrder_Hot(Dictionary<string, int> hots);
-        void TakeOrder_NonAlko(Dictionary<string, int> nonalkos);
+        void TakeOrder_Alko(Dictionary<string, decimal> alkos);
+        void TakeOrder_Cold(Dictionary<string, decimal> colds);
+        void TakeOrder_Hot(Dictionary<string, decimal> hots);
+        int TakeOrder_NonAlko(Dictionary<string, decimal> nonalkos);
         int TakeOrder_SelectCategory();
-        void TakeOrder_Snacks(Dictionary<string, int> snacks);
+        void TakeOrder_Snacks(Dictionary<string, decimal> snacks);
+        Dictionary<string, List<decimal>> OrderInfo { get; set; }
     }
 }

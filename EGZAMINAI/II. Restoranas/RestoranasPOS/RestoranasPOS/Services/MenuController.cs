@@ -11,10 +11,12 @@ namespace RestoranasPOS.Services
     public class MenuController
     {
         private readonly IDisplay _display;
+        private readonly IFileManager _fileManager;
 
-        public MenuController(IDisplay display)
+        public MenuController(IDisplay display, IFileManager fileManager)
         {
             _display = display;
+            _fileManager = fileManager;
         }
         public int FirstRun()
         {
@@ -24,6 +26,7 @@ namespace RestoranasPOS.Services
         }
         public void Controller()
         {
+            int tempChoice = 9;
             switch (FirstRun())
             {
                 case 1:
@@ -33,12 +36,32 @@ namespace RestoranasPOS.Services
                     _display.SelectTable();
                     break;
                 case 3:
-                    var tempChoice = _display.TakeOrder_SelectCategory();
-                    if (tempChoice == 0)
+                    while (tempChoice != 0)
                     {
-                        _display.MainMenu();
+                        tempChoice = _display.TakeOrder_SelectCategory();
+                        switch (tempChoice)
+                        {
+                            case 1:
+                                int selection = _display.TakeOrder_NonAlko(_fileManager.ReadFrom_Nonalkodrinks());
+                                tempChoice = 0;
+                                break;
+                            case 2:
+                                _display.TakeOrder_Alko(_fileManager.ReadFrom_Alkodrinks());
+                                break;
+                            case 3:
+                                break;
+                            case 4:
+                                break;
+                            case 5:
+                                break;
+                            case 0:
+                                _display.MainMenu();
+                                break;
+                            default:
+                                throw new Exception("Kažkas ne taip");
+                        }
                     }
-                    
+                    _display.MainMenu();
                     break;
                 case 4:
                     break;

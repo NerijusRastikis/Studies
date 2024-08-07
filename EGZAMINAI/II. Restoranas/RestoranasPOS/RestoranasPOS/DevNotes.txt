@@ -1,3 +1,45 @@
-http://www.patorjk.com/software/taag/#p=display&f=Rectangles&t=Cheque
+﻿http://www.patorjk.com/software/taag/#p=display&f=Rectangles&t=Cheque
 
 Galima padaryti Staliuku pridejima, atemima kaip dinamini funcionaluma
+
+
+UAB
+Adresas
+PVM kodas: LT000111222
+KVITAS
+
+Prekės | vnt | vnt kaina
+--------------------------
+SUMA
+Mokėjimas:
+Grynais/Kortele
+Grąža jei grynais
+--------------------------
+Skonio Lobiai – Meilė maistui
+--------------------------
+Suma be PVM
+PVM (procentai)
+--------------------------
+Padavėjas | Staliukas
+Data | Kvito Nr.
+--------------------------
+SKANIŲ SKONIO PRISIMINIMŲ!
+
+prie ko aš vedu -  pati įvestis iš klaviatūros  ir pranešimas, kad įvesta neteisingai turi būti atskirta nuo validacijos.  Tai galite padaryti atskira klase, ar metodais
+ 
+pvz 
+ 
+KazkoksIvestiesMetodas()
+{
+var ivestis = Console.Read();
+var pranesimas= KazkoksValidacijosMetodas(ivestis);
+Console.WriteLine(pranesimas);
+ 
+}
+
+RYTOJUI
+
+Ten kur breakpoint (MenuController), ten yra blogai - kviecia MainMenu() ne karta (jugi negali kartotis) ir nebenuskaito tempChoice, nes primaliau suda.
+
+Toliau: Display klaseje TakeOrder_NonAlko() yra vienintelis gerai padarytas (nors nesu tikras apie return int, bet destytojas rekomendavo)
+Reiktu maziau rasyti, daugiau pagalvoti kaip as ta MenuController noriu padaryti, nes jau irgi panasu i suda, kvieciu ta pati per ta pati, kuriu metodus panasius vienas i kita, kuriu switch switchuose - ne taip turetu buti...

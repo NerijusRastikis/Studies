@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\services\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\services\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\devnotes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\devnotes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\services\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\services\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\models\\pos_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\models\\pos_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\services\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\services\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\interfaces\\idisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\interfaces\\idisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\interfaces\\ifilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\interfaces\\ifilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\services\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\services\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\services\\printcheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\services\\printcheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\ii. restoranas\\restoranaspos\\restoranaspos\\services\\printcheque_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EA6387-1F33-4AC5-A79A-B0D0C5266B4D}|RestoranasPOS\\RestoranasPOS.csproj|solutionrelative:restoranaspos\\services\\printcheque_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,16 +54,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IDisplay.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Interfaces\\IDisplay.cs",
               "RelativeDocumentMoniker": "RestoranasPOS\\Interfaces\\IDisplay.cs",
               "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Interfaces\\IDisplay.cs",
               "RelativeToolTip": "RestoranasPOS\\Interfaces\\IDisplay.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAA7AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T17:26:43.315Z",
+              "WhenOpened": "2024-08-07T18:03:27.434Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DevNotes.txt",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\DevNotes.txt",
+              "RelativeDocumentMoniker": "RestoranasPOS\\DevNotes.txt",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\DevNotes.txt",
+              "RelativeToolTip": "RestoranasPOS\\DevNotes.txt",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAADhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-06T18:29:31.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PrintCheque_Client.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\PrintCheque_Client.cs",
+              "RelativeDocumentMoniker": "RestoranasPOS\\Services\\PrintCheque_Client.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\PrintCheque_Client.cs",
+              "RelativeToolTip": "RestoranasPOS\\Services\\PrintCheque_Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:15:22.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrintCheque.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\PrintCheque.cs",
+              "RelativeDocumentMoniker": "RestoranasPOS\\Services\\PrintCheque.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\PrintCheque.cs",
+              "RelativeToolTip": "RestoranasPOS\\Services\\PrintCheque.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:39:53.712Z"
             },
             {
               "$type": "Document",
@@ -65,33 +110,20 @@
               "RelativeDocumentMoniker": "RestoranasPOS\\Services\\FileManager.cs",
               "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\FileManager.cs",
               "RelativeToolTip": "RestoranasPOS\\Services\\FileManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAuwDYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T18:24:55.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFileManager.cs",
-              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Interfaces\\IFileManager.cs",
-              "RelativeDocumentMoniker": "RestoranasPOS\\Interfaces\\IFileManager.cs",
-              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Interfaces\\IFileManager.cs",
-              "RelativeToolTip": "RestoranasPOS\\Interfaces\\IFileManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:24:05.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Display.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\Display.cs",
               "RelativeDocumentMoniker": "RestoranasPOS\\Services\\Display.cs",
               "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\Display.cs",
               "RelativeToolTip": "RestoranasPOS\\Services\\Display.cs",
-              "ViewState": "AQIAAGEBAAAAAAAAAAAnwHQBAAAhAAAA",
+              "ViewState": "AQIAAIQBAAAAAAAAAAASwOABAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T18:10:46.738Z",
               "EditorCaption": ""
@@ -104,33 +136,33 @@
               "RelativeDocumentMoniker": "RestoranasPOS\\Services\\MenuController.cs",
               "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Services\\MenuController.cs",
               "RelativeToolTip": "RestoranasPOS\\Services\\MenuController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBsAAAANAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAASwCYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T17:52:05.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "POS_Logic.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Models\\POS_Logic.cs",
               "RelativeDocumentMoniker": "RestoranasPOS\\Models\\POS_Logic.cs",
               "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Models\\POS_Logic.cs",
               "RelativeToolTip": "RestoranasPOS\\Models\\POS_Logic.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T17:18:34.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Program.cs",
               "RelativeDocumentMoniker": "RestoranasPOS\\Program.cs",
               "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\Program.cs",
               "RelativeToolTip": "RestoranasPOS\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T18:09:49.606Z",
               "EditorCaption": ""
