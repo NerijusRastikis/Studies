@@ -10,6 +10,9 @@ namespace RestoranasPOS.Services
 {
     public class MenuController
     {
+        public delegate void MainMenuAction();
+        public delegate void CategoryMenuAction();
+        public delegate void ManageTableMenuAction();
         private readonly IDisplay _display;
         private readonly IFileManager _fileManager;
 
@@ -18,75 +21,52 @@ namespace RestoranasPOS.Services
             _display = display;
             _fileManager = fileManager;
         }
-        public int FirstRun()
+        public void FirstRun()
         {
             _display.SelectWaiter();
             _display.SelectTable();
-            return _display.MainMenu();
+            Controller();
         }
         public void Controller()
         {
-            int tempChoice = 9;
-            switch (FirstRun())
-            {
-                case 1:
-                    _display.SelectWaiter();
-                    break;
-                case 2:
-                    _display.SelectTable();
-                    break;
-                case 3:
-                    while (tempChoice != 0)
-                    {
-                        tempChoice = _display.TakeOrder_SelectCategory();
-                        switch (tempChoice)
-                        {
-                            case 1:
-                                int selection = _display.TakeOrder_NonAlko(_fileManager.ReadFrom_Nonalkodrinks());
-                                tempChoice = 0;
-                                break;
-                            case 2:
-                                _display.TakeOrder_Alko(_fileManager.ReadFrom_Alkodrinks());
-                                break;
-                            case 3:
-                                break;
-                            case 4:
-                                break;
-                            case 5:
-                                break;
-                            case 0:
-                                _display.MainMenu();
-                                break;
-                            default:
-                                throw new Exception("Kažkas ne taip");
-                        }
-                    }
-                    _display.MainMenu();
-                    break;
-                case 4:
-                    break;
-                case 0:
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Write("Ar tikrai norite išeiti? (y/n): ");
-                    Console.ResetColor();
-                    if (Console.ReadLine() == "y")
-                    {
-                        Console.Clear();
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("IŠEINAMA...");
-                        Console.ResetColor();
-                        Environment.Exit(0);
-                    }
-                    else FirstRun();
-                    break;
-                default:
-                    break;
-            }
-        }
-        public int OrderFoodController()
+            Dictionary<int, MainMenuAction> mainMenu = new Dictionary<int, MainMenuAction>
         {
-            return 0;
+            { 1, _display.SelectWaiter },
+            { 2, _display.SelectTable },
+            { 3, _display.TakeOrder_SelectCategory },
+            { 4, _display.ManageTableStatus },
+            { 5, _display.ViewOrder },
+            { 0, _display.Exit }
+        };
+            Dictionary<int, CategoryMenuAction> categoryMenu = new Dictionary<int, CategoryMenuAction>
+        {
+            { 1, () => _display.TakeOrder_NonAlko(_fileManager.ReadFrom_Nonalkodrinks()) },
+            { 2, () => _display.TakeOrder_Alko(_fileManager.ReadFrom_Alkodrinks()) },
+            { 3, () => _display.TakeOrder_Snacks(_fileManager.ReadFrom_Snacks()) },
+            { 4, () => _display.TakeOrder_Cold(_fileManager.ReadFrom_Coldfood()) },
+            { 5, () => _display.TakeOrder_Hot(_fileManager.ReadFrom_Hotfood()) },
+            { 0, _display.MainMenu }
+        };
+            Dictionary<int, ManageTableMenuAction> menuTableMenu = new Dictionary<int, ManageTableMenuAction>
+        {
+            { 1, _display.ReserveTable },
+            { 0, _display.MainMenu }
+        };
+
+            while (true)
+            {
+                _display.MainMenu();
+                mainMenu[_display.MenuChoice]();
+                if (_display.MenuChoice == 3)
+                {
+                    _display.MenuChoice = 9;
+                    categoryMenu[_display.MenuChoice]();
+                }
+                else if (_display.MenuChoice == 1)
+                {
+                    menuTableMenu[_display.MenuChoice]();
+                }
+            }
         }
     }
 }

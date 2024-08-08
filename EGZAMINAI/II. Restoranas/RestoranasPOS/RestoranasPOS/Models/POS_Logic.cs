@@ -21,7 +21,7 @@ namespace RestoranasPOS.Models
         public void Start()
         {
             var controller = new MenuController(_display, _fileManager);
-            controller.Controller();
+            controller.FirstRun();
         }
     }
 }

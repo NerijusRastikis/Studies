@@ -13,10 +13,12 @@ namespace RestoranasPOS.Services
         public string? SelectedTable { get; set; }
         public decimal CurrentTableSum { get; set; }
         public Dictionary<string, List<decimal>> OrderInfo { get; set; }
-        public int TableStatus { get; set; }
+        public Dictionary<string, int> TableStatus { get; set; }
+        public List <string> ClientInfo { get; set; }
         public int PaymentMethod { get; set; }
         public int ChequeNumber { get; set; }
         public decimal CashAmount { get; set; }
+        public int MenuChoice {  get; set; }
 
         #region Logos
         string justLogo = @"                                                                                
@@ -112,8 +114,20 @@ namespace RestoranasPOS.Services
         #region Header & Footer
         public void Header()
         {
-            Console.Write(justLogo);
-            Console.ReadKey();
+            Console.Write("Pasirinktas padavėjas: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write($"{SelectedWaiter} ");
+            Console.ResetColor();
+            Console.Write("Pasirinktas staliukas: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write($"{SelectedTable} ");
+            Console.ResetColor();
+            Console.Write("Staliuko suma: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"{CurrentTableSum} eur");
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.WriteLine();
         }
         public void Footer()
         {
@@ -141,7 +155,7 @@ namespace RestoranasPOS.Services
             string waiter2 = "Padavėjas 2";
             string waiter3 = "Padavėjas 3";
             string waiter4 = "Padavėjas 4";
-
+            Console.Clear();
             Console.WriteLine(justLogo);
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Pasirinkite padavėją: ");
@@ -195,26 +209,31 @@ namespace RestoranasPOS.Services
         #endregion
         public string IsTableTaken()
         {
-            if (TableStatus == 0)
+            if (TableStatus == null)
             {
-                return "[UŽIMTAS]";
+                return "[LAISVAS]";
             }
-            else if (TableStatus == 1)
+            else
             {
-                return "[REZERVUOTAS]";
+                foreach (var table in TableStatus)
+                {
+                    if (table.Value == 0)
+                    {
+                        return "[UŽIMTAS]";
+                    }
+                    else if (table.Value == 1)
+                    {
+                        return "[REZERVUOTAS]";
+                    }
+                    else return "[LAISVAS]";
+                }
+                return "[LAISVAS]";
             }
-            else return "[LAISVAS]";
         }
-        #region SelectTable()
-        public void SelectTable()
+
+        #region PrintTableList()
+        public void PrintTableList()
         {
-            int selectTable = 0;
-            Console.Clear();
-            Console.WriteLine(stalaiLogo);
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Pasirinkite staliuką:");
-            Console.WriteLine();
-            Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("#1 ");
             Console.ResetColor();
@@ -317,6 +336,19 @@ namespace RestoranasPOS.Services
             else Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(IsTableTaken());
             Console.ResetColor();
+        }
+        #endregion
+        #region SelectTable()
+        public void SelectTable()
+        {
+            int selectTable = 0;
+            Console.Clear();
+            Console.WriteLine(stalaiLogo);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Pasirinkite staliuką:");
+            Console.WriteLine();
+            Console.ResetColor();
+            PrintTableList();
             while (!int.TryParse(Console.ReadLine(), out selectTable))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -351,13 +383,14 @@ namespace RestoranasPOS.Services
         }
         #endregion
 
-        #region TakeOrder_SelectCategory() returns int
-        public int TakeOrder_SelectCategory()
+        #region TakeOrder_SelectCategory()
+        public void TakeOrder_SelectCategory()
         {
             OrderInfo = new Dictionary<string, List<decimal>>();
             Console.Clear();
             int userInput = 9;
             Console.WriteLine(uzsakymasLogo);
+            Header();
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Pasirinkite kategoriją:");
@@ -389,7 +422,6 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            Footer();
             while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
                                                                      && userInput != 2
                                                                      && userInput != 3
@@ -401,15 +433,15 @@ namespace RestoranasPOS.Services
                 Console.ResetColor();
                 Console.Write("Prašome pakartoti įvestį: ");
             }
-            return userInput;
         }
         #endregion
 
         #region TakeOrder_NonAlko
-        public int TakeOrder_NonAlko(Dictionary<string, decimal> nonalkos)
+        public void TakeOrder_NonAlko(Dictionary<string, decimal> nonalkos)
         {
             Console.Clear();
             Console.WriteLine(nealkoholiniaiLogo);
+            Header();
             Console.WriteLine();
             int userInput = 0;
             int iterator = 1;
@@ -453,7 +485,6 @@ namespace RestoranasPOS.Services
                 Console.Write("Pasirinktas: ");
                 Console.ResetColor();
                 Console.WriteLine($"{nonalkos.ElementAt(userInput - 1).Key}");
-                Footer();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write("Įveskite kiekį: ");
                 Console.ResetColor();
@@ -477,11 +508,15 @@ namespace RestoranasPOS.Services
                     List<decimal> orderList = new List<decimal> { quantity, nonalkos.ElementAt(userInput).Value };
                     OrderInfo.Add(nonalkos.ElementAt(userInput - 1).Key, orderList);
                     CurrentTableSum += (nonalkos.ElementAt(userInput - 1).Value * quantity);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("OPERACIJA SĖKMINGA!");
+                    Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                    Console.ResetColor();
+                    Console.ReadKey();
                 }
-                return 1;
             }
-            else return 0;
-            //TakeOrder_SelectCategory();
         }
         #endregion
         #region TakeOrder_Alko
@@ -489,6 +524,7 @@ namespace RestoranasPOS.Services
         {
             Console.Clear();
             Console.WriteLine(alkoholiniaiLogo);
+            Header();
             Console.WriteLine();
             int userInput = 0;
             int iterator = 0;
@@ -510,7 +546,6 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            Footer();
             while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
                                                                     && userInput > iterator)
             {
@@ -545,8 +580,14 @@ namespace RestoranasPOS.Services
                 List<decimal> orderList = new List<decimal> { quantity, alkos.ElementAt(userInput).Value };
                 OrderInfo.Add(alkos.ElementAt(userInput).Key, orderList);
                 CurrentTableSum += (decimal.Parse(alkos.ElementAt(userInput).Key) * quantity);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("OPERACIJA SĖKMINGA!");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
             }
-            TakeOrder_SelectCategory();
         }
         #endregion
         #region TakeOrder_Snacks
@@ -554,6 +595,7 @@ namespace RestoranasPOS.Services
         {
             Console.Clear();
             Console.WriteLine(uzkandziaiLogo);
+            Header();
             Console.WriteLine();
             int userInput = 0;
             int iterator = 0;
@@ -575,7 +617,6 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            Footer();
             while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
                                                                     && userInput > iterator)
             {
@@ -610,8 +651,14 @@ namespace RestoranasPOS.Services
                 List<decimal> orderList = new List<decimal> { quantity, snacks.ElementAt(userInput).Value };
                 OrderInfo.Add(snacks.ElementAt(userInput).Key, orderList);
                 CurrentTableSum += (decimal.Parse(snacks.ElementAt(userInput).Key) * quantity);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("OPERACIJA SĖKMINGA!");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
             }
-            TakeOrder_SelectCategory();
         }
         #endregion
         #region TakeOrder_Cold
@@ -619,6 +666,7 @@ namespace RestoranasPOS.Services
         {
             Console.Clear();
             Console.WriteLine(alkoholiniaiLogo);
+            Header();
             Console.WriteLine();
             int userInput = 0;
             int iterator = 0;
@@ -655,7 +703,6 @@ namespace RestoranasPOS.Services
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Įveskite kiekį: ");
             Console.ResetColor();
-            Footer();
             while (int.TryParse(Console.ReadLine(), out quantity))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -675,8 +722,14 @@ namespace RestoranasPOS.Services
                 List<decimal> orderList = new List<decimal> { quantity, colds.ElementAt(userInput).Value };
                 OrderInfo.Add(colds.ElementAt(userInput).Key, orderList);
                 CurrentTableSum += (decimal.Parse(colds.ElementAt(userInput).Key) * quantity);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("OPERACIJA SĖKMINGA!");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
             }
-            TakeOrder_SelectCategory();
         }
         #endregion
         #region TakeOrder_Hot
@@ -684,6 +737,7 @@ namespace RestoranasPOS.Services
         {
             Console.Clear();
             Console.WriteLine(alkoholiniaiLogo);
+            Header();
             Console.WriteLine();
             int userInput = 0;
             int iterator = 0;
@@ -705,7 +759,6 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            Footer();
             while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
                                                                     && userInput > iterator)
             {
@@ -740,58 +793,234 @@ namespace RestoranasPOS.Services
                 List<decimal> orderList = new List<decimal> { quantity, hots.ElementAt(userInput).Value };
                 OrderInfo.Add(hots.ElementAt(userInput).Key, orderList);
                 CurrentTableSum += (decimal.Parse(hots.ElementAt(userInput).Key) * quantity);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("OPERACIJA SĖKMINGA!");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
             }
-            TakeOrder_SelectCategory();
         }
         #endregion
 
-        #region MainMenu() returns int LOOPED
-        public int MainMenu()
+        #region MainMenu()
+        public void MainMenu()
         {
-            while (true)
+            int userInput = 9;
+            Console.Clear();
+            Console.WriteLine(mainMenuLogo);
+            Header();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("#1 ");
+            Console.ResetColor();
+            Console.WriteLine("Pakeisti padavėją");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("#2 ");
+            Console.ResetColor();
+            Console.WriteLine("Pakeisti staliuką");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("#3 ");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Užsakymo priėmimas");
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("#4 ");
+            Console.ResetColor();
+            Console.WriteLine("Staliukų statusų valdymas");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("#5 ");
+            Console.ResetColor();
+            Console.WriteLine("Saskaitos peržiūra/apmokėjimas");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("#0 ");
+            Console.ResetColor();
+            Console.WriteLine("Uždaryti programą");
+            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
+                                                                    && userInput != 2
+                                                                    && userInput != 3
+                                                                    && userInput != 4
+                                                                    && userInput != 0)
             {
-                int userInput = 9;
-                Console.Clear();
-                Console.WriteLine(mainMenuLogo);
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("#1 ");
-                Console.ResetColor();
-                Console.WriteLine("Pakeisti staliuką");
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("#2 ");
-                Console.ResetColor();
-                Console.WriteLine("Pakeisti padavėją");
-                Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("#3 ");
-                Console.ResetColor();
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Užsakymo priėmimas");
-                Console.ResetColor();
-                Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("#4 ");
-                Console.ResetColor();
-                Console.WriteLine("Saskaitos peržiūra/apmokėjimas");
-                Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("#0 ");
+                Console.Write("Tokio pasirinkimo nėra! ");
                 Console.ResetColor();
-                Console.WriteLine("Uždaryti programą");
-                Footer();
-                while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                        && userInput != 2
-                                                                        && userInput != 3
-                                                                        && userInput != 4
-                                                                        && userInput != 0)
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("Tokio pasirinkimo nėra! ");
-                    Console.ResetColor();
-                    Console.Write("Pakartokite įvestį: ");
-                }
-                return userInput;
+                Console.Write("Pakartokite įvestį: ");
             }
+            MenuChoice = userInput;
+        }
+        #endregion
+        #region Exit()
+        public void Exit()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Ar tikrai norite išeiti? (y/n): ");
+            Console.ResetColor();
+            if (Console.ReadLine() == "y")
+            {
+                MenuChoice = 0;
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("IŠEINAMA...");
+                Console.ResetColor();
+                Environment.Exit(0);
+            }
+            else MenuChoice = 9;
+        }
+        #endregion
+
+        #region ManageTableStatus()
+        public void ManageTableStatus()
+        {
+            int userInput;
+            Console.Clear();
+            Console.WriteLine(stalaiLogo);
+            Header();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Staliukų valdymas");
+            Console.ResetColor();
+            Console.WriteLine();
+            PrintTableList();
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("#1 ");
+            Console.ResetColor();
+            Console.WriteLine("Rezervuoti staliuką");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("#0 ");
+            Console.ResetColor();
+            Console.WriteLine("Grįžti");
+            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
+                                                                    && userInput != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Tokio pasirinkimo nėra! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+            }
+            MenuChoice = userInput;
+        }
+        #endregion
+        #region ReserveTable()
+        public void ReserveTable()
+        {
+            string userInput;
+            var client = new List<string>();
+            Console.Clear();
+            Console.WriteLine(stalaiLogo);
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Pildote staliuko rezervaciją");
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Vardas: ");
+            Console.ResetColor();
+            userInput = Console.ReadLine();
+            while (String.IsNullOrEmpty(userInput))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Vardas negali būti tuščias! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            client.Add(userInput);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Staliuko numeris: ");
+            Console.ResetColor();
+            userInput = Console.ReadLine();
+            while (String.IsNullOrEmpty(userInput))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Staliuko numeris negali būti tuščias! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            while (!int.TryParse(userInput, out var temp))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Staliuko numeris turi būti skaičius! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            client.Add(userInput);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Laikas: ");
+            Console.ResetColor();
+            userInput = Console.ReadLine();
+            while (String.IsNullOrEmpty(userInput))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Laikas negali būti tuščias! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            client.Add(userInput);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Telefono numeris: ");
+            Console.ResetColor();
+            userInput = Console.ReadLine();
+            while (String.IsNullOrEmpty(userInput))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Telefono numeris negali būti tuščias! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            while (!int.TryParse(userInput, out var temp))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Telefono numeris turi būti skaičius! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            while (!int.TryParse(userInput, out var temp) && temp.ToString().Count() != 9)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Telefono numeris turi būti 9 skaičiai! ");
+                Console.ResetColor();
+                Console.Write("Pakartokite įvestį: ");
+                userInput = Console.ReadLine();
+            }
+            client.Add(userInput);
+            Console.Clear();
+            Console.WriteLine(stalaiLogo);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Vardas: ");
+            Console.ResetColor();
+            Console.Write($"{client[0]} | ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Staliukas: ");
+            Console.ResetColor();
+            Console.Write($"{client[1]} | ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Laikas: ");
+            Console.ResetColor();
+            Console.Write($"{client[2]} | ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Telefono numeris: ");
+            Console.ResetColor();
+            Console.WriteLine($"{client[3]}");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("REZERVACIJA PATVIRTINTA!");
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+            Console.ResetColor();
+            Console.ReadKey();
         }
         #endregion
 
@@ -829,7 +1058,7 @@ namespace RestoranasPOS.Services
         }
         #endregion
         #region ViewOrder()
-        public int ViewOrder()
+        public void ViewOrder()
         {
             int iterator = 1;
             int userInput;
@@ -871,7 +1100,6 @@ namespace RestoranasPOS.Services
                 Console.ResetColor();
                 Console.Write("Pakartokite įvestį: ");
             }
-            return userInput;
         }
         #endregion
         #region SelectPayment()
