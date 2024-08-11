@@ -15,13 +15,15 @@ namespace RestoranasPOS.Services
         private readonly string _coldFoodPath;
         private readonly string _hotFoodPath;
         private readonly string _chequesPath;
+        private readonly string _clientsPath;
 
         public FileManager(string alkodrinksPath,
                            string nonalkodrinksPath,
                            string snacksPath,
                            string coldfoodPath,
                            string hotFoodPath,
-                           string chequesPath)
+                           string chequesPath,
+                           string clientsPath)
         {
             _alkodrinksPath = alkodrinksPath;
             _nonalkodrinksPath = nonalkodrinksPath;
@@ -29,6 +31,7 @@ namespace RestoranasPOS.Services
             _coldFoodPath = coldfoodPath;
             _hotFoodPath = hotFoodPath;
             _chequesPath = chequesPath;
+            _clientsPath = clientsPath;
         }
         #region Reading...
         public Dictionary<string, decimal> ReadFrom_Alkodrinks()
@@ -90,9 +93,16 @@ namespace RestoranasPOS.Services
         {
             throw new NotImplementedException();
         }
+        public string[] ReadFrom_Clients()
+        {
+            return File.ReadAllLines(_clientsPath);
+        }
         #endregion
         #region Writing...
-
+        public void WriteTo_Clients(string clientInfo)
+        {
+            File.AppendAllText(clientInfo, _clientsPath);
+        }
         #endregion
     }
 }

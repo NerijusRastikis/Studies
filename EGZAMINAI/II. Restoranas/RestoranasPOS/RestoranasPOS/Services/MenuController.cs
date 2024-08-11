@@ -55,11 +55,9 @@ namespace RestoranasPOS.Services
 
             while (true)
             {
-                _display.MainMenu();
                 mainMenu[_display.MenuChoice]();
                 if (_display.MenuChoice == 3)
                 {
-                    _display.MenuChoice = 9;
                     categoryMenu[_display.MenuChoice]();
                 }
                 else if (_display.MenuChoice == 1)
