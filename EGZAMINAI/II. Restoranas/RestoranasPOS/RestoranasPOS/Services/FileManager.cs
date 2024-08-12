@@ -93,13 +93,13 @@ namespace RestoranasPOS.Services
         {
             throw new NotImplementedException();
         }
-        public string[] ReadFrom_Clients()
+        public string[] ReadFrom_Reservations()
         {
             return File.ReadAllLines(_clientsPath);
         }
         #endregion
         #region Writing...
-        public void WriteTo_Clients(string clientInfo)
+        public void WriteTo_Reservations(string clientInfo)
         {
             File.AppendAllText(clientInfo, _clientsPath);
         }

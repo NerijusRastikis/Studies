@@ -14,10 +14,10 @@ namespace RestoranasPOS.Interfaces
         public Dictionary<string, decimal> ReadFrom_Coldfood();
         public Dictionary<string, decimal> ReadFrom_Hotfood();
         public Dictionary<string, decimal> ReadFrom_Cheques();
-        public string[] ReadFrom_Clients();
+        public string[] ReadFrom_Reservations();
 
 
-        public void WriteTo_Clients(string clientInfo);
+        public void WriteTo_Reservations(string clientInfo);
 
     }
 }

@@ -10,9 +10,6 @@ namespace RestoranasPOS.Services
 {
     public class MenuController
     {
-        public delegate void MainMenuAction();
-        public delegate void CategoryMenuAction();
-        public delegate void ManageTableMenuAction();
         private readonly IDisplay _display;
         private readonly IFileManager _fileManager;
 
@@ -21,48 +18,86 @@ namespace RestoranasPOS.Services
             _display = display;
             _fileManager = fileManager;
         }
+
         public void FirstRun()
         {
             _display.SelectWaiter();
             _display.SelectTable();
             Controller();
         }
+
         public void Controller()
         {
-            Dictionary<int, MainMenuAction> mainMenu = new Dictionary<int, MainMenuAction>
-        {
-            { 1, _display.SelectWaiter },
-            { 2, _display.SelectTable },
-            { 3, _display.TakeOrder_SelectCategory },
-            { 4, _display.ManageTableStatus },
-            { 5, _display.ViewOrder },
-            { 0, _display.Exit }
-        };
-            Dictionary<int, CategoryMenuAction> categoryMenu = new Dictionary<int, CategoryMenuAction>
-        {
-            { 1, () => _display.TakeOrder_NonAlko(_fileManager.ReadFrom_Nonalkodrinks()) },
-            { 2, () => _display.TakeOrder_Alko(_fileManager.ReadFrom_Alkodrinks()) },
-            { 3, () => _display.TakeOrder_Snacks(_fileManager.ReadFrom_Snacks()) },
-            { 4, () => _display.TakeOrder_Cold(_fileManager.ReadFrom_Coldfood()) },
-            { 5, () => _display.TakeOrder_Hot(_fileManager.ReadFrom_Hotfood()) },
-            { 0, _display.MainMenu }
-        };
-            Dictionary<int, ManageTableMenuAction> menuTableMenu = new Dictionary<int, ManageTableMenuAction>
-        {
-            { 1, _display.ReserveTable },
-            { 0, _display.MainMenu }
-        };
-
             while (true)
             {
-                mainMenu[_display.MenuChoice]();
-                if (_display.MenuChoice == 3)
+                _display.MainMenu();
+
+                switch (_display.MenuChoice)
                 {
-                    categoryMenu[_display.MenuChoice]();
+                    case 1:
+                        _display.SelectWaiter();
+                        break;
+                    case 2:
+                        _display.SelectTable();
+                        break;
+                    case 3:
+                        ShowCategoryMenu();
+                        break;
+                    case 4:
+                        ShowManageTableMenu();
+                        break;
+                    case 5:
+                        _display.ViewOrder();
+                        break;
+                    case 0:
+                        _display.Exit();
+                        return;
                 }
-                else if (_display.MenuChoice == 1)
+            }
+        }
+
+        private void ShowCategoryMenu()
+        {
+            while (true)
+            {
+                _display.TakeOrder_SelectCategory();
+
+                switch (_display.MenuChoice)
                 {
-                    menuTableMenu[_display.MenuChoice]();
+                    case 1:
+                        _display.TakeOrder_NonAlko(_fileManager.ReadFrom_Nonalkodrinks());
+                        break;
+                    case 2:
+                        _display.TakeOrder_Alko(_fileManager.ReadFrom_Alkodrinks());
+                        break;
+                    case 3:
+                        _display.TakeOrder_Snacks(_fileManager.ReadFrom_Snacks());
+                        break;
+                    case 4:
+                        _display.TakeOrder_Cold(_fileManager.ReadFrom_Coldfood());
+                        break;
+                    case 5:
+                        _display.TakeOrder_Hot(_fileManager.ReadFrom_Hotfood());
+                        break;
+                    case 0:
+                        return;
+                }
+            }
+        }
+
+        private void ShowManageTableMenu()
+        {
+            while (true)
+            {
+                _display.ManageTableStatus();
+
+                switch (_display.MenuChoice)
+                {
+                    case 1:
+                        _display.ReserveTable();
+                        break;
+                    case 0:
+                        return;
                 }
             }
         }

@@ -21,7 +21,17 @@ namespace RestoranasPOS.Models
         public void Start()
         {
             var controller = new MenuController(_display, _fileManager);
+            PopulateTableStatuses();
             controller.FirstRun();
+        }
+        public void PopulateTableStatuses()
+        {
+            _display.TableStatus.TryAdd("#1 Staliukas", 2);
+            _display.TableStatus.TryAdd("#2 Staliukas", 2);
+            _display.TableStatus.TryAdd("#3 Staliukas", 2);
+            _display.TableStatus.TryAdd("#4 Staliukas", 2);
+            _display.TableStatus.TryAdd("#5 Staliukas", 2);
+            _display.TableStatus.TryAdd("#6 Staliukas", 2);
         }
     }
 }

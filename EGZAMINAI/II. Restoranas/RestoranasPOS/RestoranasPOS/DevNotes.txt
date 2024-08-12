@@ -41,5 +41,17 @@ RYTOJUI
 
 Ten kur breakpoint (MenuController), ten yra blogai - kviecia MainMenu() ne karta (jugi negali kartotis) ir nebenuskaito tempChoice, nes primaliau suda.
 
-Toliau: Display klaseje TakeOrder_NonAlko() yra vienintelis gerai padarytas (nors nesu tikras apie return int, bet destytojas rekomendavo)
-Reiktu maziau rasyti, daugiau pagalvoti kaip as ta MenuController noriu padaryti, nes jau irgi panasu i suda, kvieciu ta pati per ta pati, kuriu metodus panasius vienas i kita, kuriu switch switchuose - ne taip turetu buti...
+Staliuko statusai:
+
+                0 => "[UŽIMTAS]",
+                1 => "[REZERVUOTAS]",
+                _ => "[LAISVAS]"
+
+Reiks perziureti ViewOrder, kodel neatvaizduoja OrderInfo, bet tuo paciu pakeisti OrderInfo kaip turetu atvaizduoti, truksta daugiau info.
+Man atrodo programos struktura susimaisiusi, nes kazkaip viska darau Display. Kazkaip ne taip planavau daryti.
+Mintis tokia:
+Isskaidyti pagal meniu gal? Tada IDisplay supaprastinti ir padaryti taip, kad tiktu toms suklasems, kurios bus padarytos is Display.
+Display turetu tik spausdinti, bet logika irgi daro.
+Validacija visgi reiktu perkelti i kita klase.
+Kol kas silpnai atrodo darbas. Nieko mandro nepanaudoju.
+Aciu Dievui, kad bent veikia :D Baisu baisu

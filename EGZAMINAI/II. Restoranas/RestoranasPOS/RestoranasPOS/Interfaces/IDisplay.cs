@@ -4,7 +4,7 @@
     {
         Dictionary<string, int> TableStatus { get; set; }
 
-        string IsTableTaken();
+        string IsTableTaken(string tableKey);
         void MainMenu();
         void SelectWaiter();
         void SelectTable();
@@ -16,7 +16,7 @@
         void TakeOrder_Snacks(Dictionary<string, decimal> snacks);
         void ViewOrder();
         void ManageTableStatus();
-        void ReserveTable();
+        List<string> ReserveTable();
         void Exit();
         Dictionary<string, List<decimal>> OrderInfo { get; set; }
         List<string> ClientInfo { get; set; }
