@@ -18,6 +18,6 @@ namespace RestoranasPOS.Interfaces
 
 
         public void WriteTo_Reservations(string clientInfo);
-
+        public void WriteTo_Cheques(string chequesInfo);
     }
 }

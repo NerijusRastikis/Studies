@@ -14,8 +14,12 @@
         void TakeOrder_NonAlko(Dictionary<string, decimal> nonalkos);
         void TakeOrder_SelectCategory();
         void TakeOrder_Snacks(Dictionary<string, decimal> snacks);
+        void SelectPayment();
         void ViewOrder();
         void ManageTableStatus();
+        void ChangeTableStatus();
+        List<string> ViewCheque();
+        void ToPrintCheque_OrNot_ToPrintCheque();
         List<string> ReserveTable();
         void Exit();
         Dictionary<string, List<decimal>> OrderInfo { get; set; }

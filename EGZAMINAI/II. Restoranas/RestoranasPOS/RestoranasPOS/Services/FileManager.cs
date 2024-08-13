@@ -103,6 +103,10 @@ namespace RestoranasPOS.Services
         {
             File.AppendAllText(clientInfo, _clientsPath);
         }
+        public void WriteTo_Cheques(string chequesInfo)
+        {
+            File.AppendAllText(chequesInfo, _chequesPath);
+        }
         #endregion
     }
 }

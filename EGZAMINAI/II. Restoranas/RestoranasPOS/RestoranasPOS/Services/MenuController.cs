@@ -13,11 +13,13 @@ namespace RestoranasPOS.Services
         private readonly IDisplay _display;
         private readonly IFileManager _fileManager;
 
-        public MenuController(IDisplay display, IFileManager fileManager)
+        public MenuController(IDisplay display, IFileManager fileManager, SimpleTest simpleTest)
         {
             _display = display;
             _fileManager = fileManager;
+            SimpleTest = simpleTest;
         }
+        public SimpleTest SimpleTest { get; set; } = new SimpleTest(_fileManger, _display);
 
         public void FirstRun()
         {
@@ -47,7 +49,10 @@ namespace RestoranasPOS.Services
                         ShowManageTableMenu();
                         break;
                     case 5:
-                        _display.ViewOrder();
+                        ShowViewOrderMenu();
+                        break;
+                    case 6:
+                        
                         break;
                     case 0:
                         _display.Exit();
@@ -96,8 +101,44 @@ namespace RestoranasPOS.Services
                     case 1:
                         _display.ReserveTable();
                         break;
+                    case 2:
+                        _display.ChangeTableStatus();
+                        break;
                     case 0:
                         return;
+                }
+            }
+        }
+        private void ShowViewOrderMenu()
+        {
+            while (true)
+            {
+                _display.ViewOrder();
+                switch (_display.MenuChoice)
+                {
+                    case 1:
+                        _display.SelectPayment();
+                        _display.ViewCheque();
+                        break;
+                    case 0:
+                        return;
+                }
+            }
+        }
+        private void ToPrintChequeMenu()
+        {
+            while (true)
+            {
+                _display.ToPrintCheque_OrNot_ToPrintCheque();
+                switch(_display.MenuChoice)
+                {
+                    case 1:
+
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
                 }
             }
         }

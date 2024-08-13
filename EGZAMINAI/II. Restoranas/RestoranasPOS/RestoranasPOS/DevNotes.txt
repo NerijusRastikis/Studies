@@ -55,3 +55,6 @@ Display turetu tik spausdinti, bet logika irgi daro.
 Validacija visgi reiktu perkelti i kita klase.
 Kol kas silpnai atrodo darbas. Nieko mandro nepanaudoju.
 Aciu Dievui, kad bent veikia :D Baisu baisu
+
+
+https://mailtrap.io/blog/csharp-send-email-gmail/ - EmailService kaip padaryti
