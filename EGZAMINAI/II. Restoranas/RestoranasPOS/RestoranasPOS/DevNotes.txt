@@ -37,10 +37,6 @@ Console.WriteLine(pranesimas);
  
 }
 
-RYTOJUI
-
-Ten kur breakpoint (MenuController), ten yra blogai - kviecia MainMenu() ne karta (jugi negali kartotis) ir nebenuskaito tempChoice, nes primaliau suda.
-
 Staliuko statusai:
 
                 0 => "[UŽIMTAS]",
@@ -57,4 +53,5 @@ Kol kas silpnai atrodo darbas. Nieko mandro nepanaudoju.
 Aciu Dievui, kad bent veikia :D Baisu baisu
 
 
-https://mailtrap.io/blog/csharp-send-email-gmail/ - EmailService kaip padaryti
+https://mailtrap.io/blog/csharp-send-email-gmail/
+https://stackoverflow.com/questions/32260/sending-email-in-net-through-gmail - EmailService kaip padaryti

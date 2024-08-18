@@ -17,9 +17,10 @@ namespace RestoranasPOS
             string chequesPath = "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\DB\\cheques.csv";
             string clientsPath = "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\II. Restoranas\\RestoranasPOS\\RestoranasPOS\\DB\\Reservations.csv";
             #endregion
-            IEmailService emailService = new EmailService();
-            IDisplay display = new Display(emailService);
+
             IFileManager fileManager = new FileManager(alkodrinksPath, nonalkodrinksPath, snacksPath, coldfoodPath, hotfoodPath, chequesPath, clientsPath);
+            IEmailService emailService = new My_EmailService(fileManager);
+            IDisplay display = new Display(emailService);
 
             var restaurantPOS = new POS_Logic(fileManager, display);
             restaurantPOS.Start();

@@ -20,7 +20,7 @@ namespace RestoranasPOS.Models
         }
         public void Start()
         {
-            var controller = new MenuController(_display, _fileManager);
+            var controller = new MenuController(_display, _fileManager, this);
             PopulateTableStatuses();
             controller.FirstRun();
         }
@@ -32,6 +32,21 @@ namespace RestoranasPOS.Models
             _display.TableStatus.TryAdd("#4 Staliukas", 2);
             _display.TableStatus.TryAdd("#5 Staliukas", 2);
             _display.TableStatus.TryAdd("#6 Staliukas", 2);
+        }
+        public string ConvertToString_Reservations()
+        {
+            string? whatToReturn;
+            var capturedList = _display.ReserveTable().ToArray();
+            return string.Join(", ", capturedList);
+        }
+        public void PrintReservations()
+        {
+            _display.ViewReservations();
+            var laikinas0 = _fileManager.ReadFrom_Reservations();
+            var laikinas1 = laikinas0[0];
+            var laikinas2 = laikinas1.Split(',');
+            Console.WriteLine($"Vardas: {laikinas2[0]}, Staliukas: #{laikinas2[1]}, Laikas: {laikinas2[2]}, Tel. Numeris: {laikinas2[3]}");
+            _display.PressAnyKeyToContinue();
         }
     }
 }

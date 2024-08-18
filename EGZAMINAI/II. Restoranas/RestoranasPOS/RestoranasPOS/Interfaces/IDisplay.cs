@@ -23,6 +23,8 @@
         List<string> FormedCheque {  get; set; }
         void ToPrintCheque_OrNot_ToPrintCheque();
         List<string> ReserveTable();
+        void ViewReservations();
+        void PressAnyKeyToContinue();
         void Exit();
         Dictionary<string, List<decimal>> OrderInfo { get; set; }
         List<string> ClientInfo { get; set; }

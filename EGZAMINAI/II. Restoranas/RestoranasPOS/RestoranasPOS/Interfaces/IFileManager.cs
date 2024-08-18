@@ -13,7 +13,7 @@ namespace RestoranasPOS.Interfaces
         public Dictionary<string, decimal> ReadFrom_Snacks();
         public Dictionary<string, decimal> ReadFrom_Coldfood();
         public Dictionary<string, decimal> ReadFrom_Hotfood();
-        public Dictionary<string, decimal> ReadFrom_Cheques();
+        public string[] ReadFrom_Cheques();
         public string[] ReadFrom_Reservations();
 
 

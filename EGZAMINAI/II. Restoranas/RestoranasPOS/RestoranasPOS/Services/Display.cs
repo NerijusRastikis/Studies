@@ -866,11 +866,17 @@ namespace RestoranasPOS.Services
             Console.Write("#2 ");
             Console.ResetColor();
             Console.WriteLine("Keisti pasirinkto staliuko užimtumą");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("#3 ");
+            Console.ResetColor();
+            Console.WriteLine("Peržiūrėti rezervacijas");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti");
             while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
                                                                     || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -1061,6 +1067,29 @@ namespace RestoranasPOS.Services
             Console.ResetColor();
             Console.ReadKey();
             return client;
+        }
+        #endregion
+        #region ViewReservations()
+        public void ViewReservations()
+        {
+            Console.Clear();
+            Console.WriteLine(stalaiLogo);
+            Header();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Staliukų REZERVACIJŲ perzžiūra:");
+            Console.ResetColor();
+            Console.WriteLine();
+        }
+        #endregion
+
+        #region PressAnyKeyToContinue()
+        public void PressAnyKeyToContinue()
+        {
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+            Console.ResetColor();
+            Console.ReadKey();
         }
         #endregion
 

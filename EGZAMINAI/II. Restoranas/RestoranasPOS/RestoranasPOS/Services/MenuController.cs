@@ -1,4 +1,5 @@
 ﻿using RestoranasPOS.Interfaces;
+using RestoranasPOS.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,13 @@ namespace RestoranasPOS.Services
     {
         private readonly IDisplay _display;
         private readonly IFileManager _fileManager;
+        private readonly POS_Logic _logic;
 
-        public MenuController(IDisplay display, IFileManager fileManager)
+        public MenuController(IDisplay display, IFileManager fileManager, POS_Logic pOS)
         {
             _display = display;
             _fileManager = fileManager;
+            _logic = pOS;
         }
         public void FirstRun()
         {
@@ -93,10 +96,13 @@ namespace RestoranasPOS.Services
                 switch (_display.MenuChoice)
                 {
                     case 1:
-                        _display.ReserveTable();
+                        _fileManager.WriteTo_Reservations(_logic.ConvertToString_Reservations());
                         break;
                     case 2:
                         _display.ChangeTableStatus();
+                        break;
+                    case 3:
+                        _logic.PrintReservations();
                         break;
                     case 0:
                         return;
