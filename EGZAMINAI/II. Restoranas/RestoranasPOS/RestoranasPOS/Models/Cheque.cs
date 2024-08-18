@@ -18,5 +18,7 @@ namespace RestoranasPOS.Models
             _fileManager = fileManager;
             _display = display;
         }
+        public abstract int PrintChequeType();
+        public abstract List<string> PrintTheCheque();
     }
 }

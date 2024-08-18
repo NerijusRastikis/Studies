@@ -103,9 +103,29 @@ namespace RestoranasPOS.Services
         {
             File.AppendAllText(clientInfo, _clientsPath);
         }
-        public void WriteTo_Cheques(string chequesInfo)
+        public void WriteTo_Cheques(List<string> chequesInfo, int type)
         {
-            File.AppendAllText(chequesInfo, _chequesPath);
+            if (type == 1)
+            {
+                File.AppendAllText(_chequesPath, "Kliento čekis\n");
+                foreach (var chequeLine in chequesInfo)
+                {
+                    File.AppendAllText(_chequesPath, chequeLine);
+                    File.AppendAllText(_chequesPath, "\n");
+                }
+                File.AppendAllText(_chequesPath, "=== SEPARATOR ===\n");
+            }
+            else if (type == 2)
+            {
+                File.AppendAllText(_chequesPath, "Restorano čekis\n");
+                foreach (var chequeLine in chequesInfo)
+                {
+                    File.AppendAllText(_chequesPath, chequeLine);
+                    File.AppendAllText(_chequesPath, "\n");
+                }
+                File.AppendAllText(_chequesPath, "=== SEPARATOR ===\n");
+
+            }
         }
         #endregion
     }

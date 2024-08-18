@@ -18,12 +18,16 @@
         void ViewOrder();
         void ManageTableStatus();
         void ChangeTableStatus();
-        List<string> ViewCheque();
+        void ViewCheque();
+        void ChequePrintStatus();
+        List<string> FormedCheque {  get; set; }
         void ToPrintCheque_OrNot_ToPrintCheque();
         List<string> ReserveTable();
         void Exit();
         Dictionary<string, List<decimal>> OrderInfo { get; set; }
         List<string> ClientInfo { get; set; }
         int MenuChoice { get; set; }
+        decimal WaiterTips {  get; set; }
+        decimal TableEarnings {  get; set; }
     }
 }

@@ -8,5 +8,6 @@ namespace RestoranasPOS.Interfaces
 {
     public interface IEmailService
     {
+        public string SendEmail();
     }
 }

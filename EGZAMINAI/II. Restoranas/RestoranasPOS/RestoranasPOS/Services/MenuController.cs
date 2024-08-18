@@ -13,14 +13,11 @@ namespace RestoranasPOS.Services
         private readonly IDisplay _display;
         private readonly IFileManager _fileManager;
 
-        public MenuController(IDisplay display, IFileManager fileManager, SimpleTest simpleTest)
+        public MenuController(IDisplay display, IFileManager fileManager)
         {
             _display = display;
             _fileManager = fileManager;
-            SimpleTest = simpleTest;
         }
-        public SimpleTest SimpleTest { get; set; } = new SimpleTest(_fileManger, _display);
-
         public void FirstRun()
         {
             _display.SelectWaiter();
@@ -50,9 +47,6 @@ namespace RestoranasPOS.Services
                         break;
                     case 5:
                         ShowViewOrderMenu();
-                        break;
-                    case 6:
-                        
                         break;
                     case 0:
                         _display.Exit();
@@ -119,7 +113,13 @@ namespace RestoranasPOS.Services
                     case 1:
                         _display.SelectPayment();
                         _display.ViewCheque();
-                        break;
+                        ToPrintChequeMenu();
+                        return;
+                    case 2:
+                        _display.SelectPayment();
+                        _display.ViewCheque();
+                        ToPrintChequeMenu();
+                        return;
                     case 0:
                         return;
                 }
@@ -129,14 +129,20 @@ namespace RestoranasPOS.Services
         {
             while (true)
             {
+                var chequeForClient = new PrintCheque_Client(_fileManager, _display);
+                var chequeForRestaurant = new PrintCheque_Restaurant(_fileManager, _display);
                 _display.ToPrintCheque_OrNot_ToPrintCheque();
                 switch(_display.MenuChoice)
                 {
                     case 1:
-
-                        break;
+                        _fileManager.WriteTo_Cheques(chequeForClient.PrintTheCheque(), chequeForClient.PrintChequeType());
+                        _fileManager.WriteTo_Cheques(chequeForRestaurant.PrintTheCheque(), chequeForRestaurant.PrintChequeType());
+                        _display.ChequePrintStatus();
+                        return;
                     case 2:
-                        break;
+                        _fileManager.WriteTo_Cheques(chequeForRestaurant.PrintTheCheque(), chequeForRestaurant.PrintChequeType());
+                        _display.ChequePrintStatus();
+                        return;
                     default:
                         break;
                 }

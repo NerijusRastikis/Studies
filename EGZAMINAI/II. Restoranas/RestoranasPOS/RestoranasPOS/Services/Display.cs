@@ -7,8 +7,9 @@ using RestoranasPOS.Interfaces;
 
 namespace RestoranasPOS.Services
 {
-    public class Display : PrintCheque, IDisplay
+    public class Display : IDisplay
     {
+        private readonly IEmailService _emailService;
         public string? SelectedWaiter { get; set; }
         public string? SelectedTable { get; set; }
         public decimal CurrentTableSum { get; set; }
@@ -19,6 +20,9 @@ namespace RestoranasPOS.Services
         public int ChequeNumber { get; set; }
         public decimal CashAmount { get; set; }
         public int MenuChoice {  get; set; }
+        public decimal WaiterTips { get; set; }
+        public decimal TableEarnings { get; set; }
+        public List<string> FormedCheque { get; set; }
 
         #region Logos
         string justLogo = @"                                                                                
@@ -111,6 +115,11 @@ namespace RestoranasPOS.Services
                                                                                        |_____|_| |___|___|_|          
 ";
 
+        public Display(IEmailService emailService)
+        {
+            _emailService = emailService;
+        }
+
         #endregion
         #region Header & Footer
         public void Header()
@@ -178,16 +187,17 @@ namespace RestoranasPOS.Services
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(waiter4);
             Console.ResetColor();
-            while (int.TryParse(Console.ReadLine(), out waiterSelection) && waiterSelection != 1
-                                                                         && waiterSelection != 2
-                                                                         && waiterSelection != 3
-                                                                         && waiterSelection != 4)
+
+            // This loop will continue until a valid selection (1, 2, 3, or 4) is made
+            while (!int.TryParse(Console.ReadLine(), out waiterSelection) ||
+                   !(waiterSelection == 1 || waiterSelection == 2 || waiterSelection == 3 || waiterSelection == 4))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
                 Console.ResetColor();
                 Console.Write("Pakartokite įvestį: ");
             }
+
             switch (waiterSelection)
             {
                 case 1:
@@ -271,7 +281,12 @@ namespace RestoranasPOS.Services
             Console.WriteLine();
             Console.ResetColor();
             PrintTableList();
-            while (!int.TryParse(Console.ReadLine(), out selectTable))
+            while (!int.TryParse(Console.ReadLine(), out selectTable) || !(selectTable == 1
+                                                                      || selectTable == 2
+                                                                      || selectTable == 3
+                                                                      || selectTable == 4
+                                                                      || selectTable == 5
+                                                                      || selectTable == 6))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Netinkamas pasirinkimas! ");
@@ -398,8 +413,12 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
-                                                                    && userInput > iterator)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 0
+                                                                    || userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
+                                                                    || userInput == 4
+                                                                    || userInput == 5))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -477,8 +496,12 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
-                                                                    || userInput > iterator)
+            while (!int.TryParse(Console.ReadLine(), out userInput) && !(userInput == 0
+                                                                    || userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
+                                                                    || userInput == 4
+                                                                    || userInput == 5))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -551,8 +574,12 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
-                                                                    || userInput > iterator)
+            while (!int.TryParse(Console.ReadLine(), out userInput) && !(userInput == 0
+                                                                    || userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
+                                                                    || userInput == 4
+                                                                    || userInput == 5))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -625,8 +652,12 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
-                                                                    && userInput > iterator)
+            while (!int.TryParse(Console.ReadLine(), out userInput) && !(userInput == 0
+                                                                      || userInput == 1
+                                                                      || userInput == 2
+                                                                      || userInput == 3
+                                                                      || userInput == 4
+                                                                      || userInput == 5))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -699,8 +730,12 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti į meniu");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput < 0
-                                                                    || userInput > iterator)
+            while (!int.TryParse(Console.ReadLine(), out userInput) && !(userInput == 0
+                                                                    || userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
+                                                                    || userInput == 4
+                                                                    || userInput == 5))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -783,11 +818,12 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Uždaryti programą");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                    && userInput != 2
-                                                                    && userInput != 3
-                                                                    && userInput != 4
-                                                                    && userInput != 0)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
+                                                                    || userInput == 4
+                                                                    || userInput == 5
+                                                                    || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -800,23 +836,12 @@ namespace RestoranasPOS.Services
         #region Exit()
         public void Exit()
         {
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Ar tikrai norite išeiti? (y/n): ");
-            Console.ResetColor();
-            if (Console.ReadLine() == "y")
-            {
                 MenuChoice = 0;
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("IŠEINAMA...");
                 Console.ResetColor();
                 Environment.Exit(0);
-            }
-            else
-            {
-
-            }
         }
         #endregion
 
@@ -845,8 +870,8 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                    && userInput != 0)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -884,10 +909,10 @@ namespace RestoranasPOS.Services
             Console.Write("#0 ");
             Console.ResetColor();
             Console.WriteLine("Grįžti");
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                    && userInput != 2
-                                                                    && userInput != 3
-                                                                    && userInput != 0)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 3
+                                                                    || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -1060,9 +1085,9 @@ namespace RestoranasPOS.Services
             Console.ResetColor();
             Console.WriteLine("Grįžti");
             Footer();
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                    && userInput != 2
-                                                                    && userInput != 0)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -1113,8 +1138,8 @@ namespace RestoranasPOS.Services
             Console.ResetColor();
             Console.WriteLine("Grįžti");
             Footer();
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                    && userInput != 0)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -1147,9 +1172,9 @@ namespace RestoranasPOS.Services
             Console.ResetColor();
             Console.WriteLine("Grįžti");
             Footer();
-            while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
-                                                                    && userInput != 2
-                                                                    && userInput != 0)
+            while (!int.TryParse(Console.ReadLine(), out userInput) || !(userInput == 1
+                                                                    || userInput == 2
+                                                                    || userInput == 0))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("Tokio pasirinkimo nėra! ");
@@ -1184,7 +1209,7 @@ namespace RestoranasPOS.Services
         }
         #endregion
         #region ViewCheque()
-        public List<string> ViewCheque()
+        public void ViewCheque()
         {
             // Padaryta konsultuojantis su ChatGPT
 
@@ -1207,17 +1232,17 @@ namespace RestoranasPOS.Services
         "    PVM mokėtojo kodas: LT100010548418   ",
         "                  KVITAS                 ",
         new string('-', width - 2),
-        " Prekė                       | Vnt. | Vnt. kaina (eur) |",
+        " Prekė                    | Vnt. | Vnt. kaina (eur) ",
         new string('-', width - 2)
     };
 
             foreach (var detail in OrderInfo)
             {
-                lines.Add($"| {detail.Key,-30} | {detail.Value[0],3}  | {detail.Value[1],12} |");
+                lines.Add($"| {detail.Key,-30} | {detail.Value[0],3}  | {detail.Value[1],10}");
             }
 
             lines.Add(new string('-', width - 2));
-            lines.Add($"| SUMA                            {CurrentTableSum,12:N2} eur   |");
+            lines.Add($"| SUMA                            {CurrentTableSum,12:N2} eur  ");
             lines.Add(new string('-', width - 2));
             lines.Add(" Mokėjimas:                           ");
             string paymentType = PaymentMethod == 1 ? "Grynieji" : "Bankinė kortelė";
@@ -1235,8 +1260,8 @@ namespace RestoranasPOS.Services
             lines.Add($"| Suma be PVM:       {CurrentTableSum - (CurrentTableSum * 0.21m),10:N2} eur |");
             lines.Add($"| PVM(21%):          {CurrentTableSum * 0.21m,12:N2} eur |");
             lines.Add(new string('-', width - 2));
-            lines.Add($"| Aptarnavo: {SelectedWaiter,-20} | Staliukas: {SelectedTable,-3} |");
-            lines.Add($"| Data: {DateTime.Now:MM/dd/yyyy hh:mm:ss tt} | Kvito nr.: {ChequeNumber,4} |");
+            lines.Add($"| Aptarnavo: {SelectedWaiter,-12} | Staliukas: {SelectedTable,-4} ");
+            lines.Add($"| Data: {DateTime.Now:yyyy/MM/dd hh:mm:ss tt} | Kvito nr.: {ChequeNumber,4} |");
             lines.Add(new string('-', width - 2));
             lines.Add("       SKANIŲ SKONIO PRISIMINIMŲ!        ");
 
@@ -1249,8 +1274,11 @@ namespace RestoranasPOS.Services
                 Console.WriteLine($"|{line.PadRight(width - 2)}|");
             }
             Console.WriteLine(new string('=', width));
-
             Console.ResetColor();
+
+            WaiterTips =+ CurrentTableSum * 0.1m;
+            TableEarnings =+ CurrentTableSum;
+
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine();
             Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
@@ -1258,7 +1286,57 @@ namespace RestoranasPOS.Services
             Console.ReadKey();
 
             TableStatus[SelectedTable] = 2;
-            return lines;
+            FormedCheque = lines;
+            CurrentTableSum = 0;
+        }
+        #endregion
+        #region ChequePrintStatus()
+        public void ChequePrintStatus()
+        {
+            if (FormedCheque == null)
+            {
+                Console.Clear();
+                Console.WriteLine(cekiaiLogo);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Čekis nespausdintas!");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{_emailService.SendEmail()}");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine();
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
+            }
+            else if (MenuChoice == 1)
+            {
+                Console.Clear();
+                Console.WriteLine(cekiaiLogo);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Čekis sėkmingai atspausdintas!");
+                Console.WriteLine($"{_emailService.SendEmail()}");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine();
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine(cekiaiLogo);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Čekis nespausdintas!");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{_emailService.SendEmail()}");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine();
+                Console.WriteLine("Spauskite bet kurį mygtuką norėdami tęsti...");
+                Console.ResetColor();
+                Console.ReadKey();
+            }
         }
         #endregion
         #region ToPrintCheque_OrNot_ToPrintCheque
@@ -1277,7 +1355,7 @@ namespace RestoranasPOS.Services
             Console.ResetColor();
             Console.WriteLine("Taip");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.Write("#1 ");
+            Console.Write("#2 ");
             Console.ResetColor();
             Console.WriteLine("Ne");
             while (!int.TryParse(Console.ReadLine(), out userInput) && userInput != 1
