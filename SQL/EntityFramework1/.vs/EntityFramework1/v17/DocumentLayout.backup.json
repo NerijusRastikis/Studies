@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|c:\\projects\\.net\\codeacademy\\studies\\sql\\entityframework1\\entityframework1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|solutionrelative:entityframework1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Migrations\\20240827171339_AddedPagesToBook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EntityFramework1\\Migrations\\20240827171339_AddedPagesToBook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|c:\\projects\\.net\\codeacademy\\studies\\sql\\entityframework1\\entityframework1\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|solutionrelative:entityframework1\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|c:\\projects\\.net\\codeacademy\\studies\\sql\\entityframework1\\entityframework1\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|solutionrelative:entityframework1\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Migrations\\20240827164434_InitialContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EntityFramework1\\Migrations\\20240827164434_InitialContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|c:\\projects\\.net\\codeacademy\\studies\\sql\\entityframework1\\entityframework1\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E08FF0-9D27-4EDB-8B2A-FEE745B19CEC}|EntityFramework1\\EntityFramework1.csproj|solutionrelative:entityframework1\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240827171339_AddedPagesToBook.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Migrations\\20240827171339_AddedPagesToBook.cs",
+              "RelativeDocumentMoniker": "EntityFramework1\\Migrations\\20240827171339_AddedPagesToBook.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Migrations\\20240827171339_AddedPagesToBook.cs",
+              "RelativeToolTip": "EntityFramework1\\Migrations\\20240827171339_AddedPagesToBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:13:39.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240827164434_InitialContext.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Migrations\\20240827164434_InitialContext.cs",
+              "RelativeDocumentMoniker": "EntityFramework1\\Migrations\\20240827164434_InitialContext.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Migrations\\20240827164434_InitialContext.cs",
+              "RelativeToolTip": "EntityFramework1\\Migrations\\20240827164434_InitialContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:44:35.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookContext.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\BookContext.cs",
+              "RelativeDocumentMoniker": "EntityFramework1\\BookContext.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\BookContext.cs",
+              "RelativeToolTip": "EntityFramework1\\BookContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:26:57.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "EntityFramework1\\Entities\\Book.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Entities\\Book.cs",
+              "RelativeToolTip": "EntityFramework1\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:58:59.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "EntityFramework1\\Entities\\Author.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Entities\\Author.cs",
+              "RelativeToolTip": "EntityFramework1\\Entities\\Author.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:42:10.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFramework1\\Program.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\SQL\\EntityFramework1\\EntityFramework1\\Program.cs*",
+              "RelativeToolTip": "EntityFramework1\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:37:28.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

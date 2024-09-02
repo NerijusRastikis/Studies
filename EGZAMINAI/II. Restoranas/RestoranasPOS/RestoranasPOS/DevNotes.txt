@@ -55,3 +55,12 @@ Aciu Dievui, kad bent veikia :D Baisu baisu
 
 https://mailtrap.io/blog/csharp-send-email-gmail/
 https://stackoverflow.com/questions/32260/sending-email-in-net-through-gmail - EmailService kaip padaryti
+
+
+DATA BASE
+
+Truksta info del MenuRepository
+Dabar dirbu ties Table
+
+-- Keista, nesu tikras ar reikia tu Context, nes atrodo cia kuria nauja duomenu baze
+(ARBA cia reikejo viena context naudoti ir tuomet ji reikia pervadinti ne MenuContext, o RestoranasContext)

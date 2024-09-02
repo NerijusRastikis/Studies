@@ -1,0 +1,1 @@
+UPDATE DARBUOTOJAS SET PAREIGOS = 'Testuotojas' WHERE PAVARDE = 'Antanaitis'
