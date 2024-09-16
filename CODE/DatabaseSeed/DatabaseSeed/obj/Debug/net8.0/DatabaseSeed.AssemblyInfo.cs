@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatabaseSeed")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9d656658059edcc8e4ff46e43615cc91e2a1518")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84dc0748225a02788047205504c63c11d839f53b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatabaseSeed")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatabaseSeed")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
