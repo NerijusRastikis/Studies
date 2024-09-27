@@ -23,7 +23,8 @@ namespace SIS
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SIS_Egzaminas;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SIS_Egzaminas;Trusted_Connection=True;")
+                    .EnableSensitiveDataLogging();
             }
         }
 
