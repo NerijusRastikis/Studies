@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>P103_ExternalApi</name>
+    </assembly>
+    <members>
+        <member name="M:P103_ExternalApi.Controllers.BooksApiController.GetBooks(System.String)">
+            <summary>
+            Visų knygų gavimas iš API
+            </summary>
+            <param name="connectionId">Id iš WEB puslapio</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

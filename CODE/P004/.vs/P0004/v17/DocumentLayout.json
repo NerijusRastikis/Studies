@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|solutionrelative:p0004\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\services\\booksapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|solutionrelative:p0004\\services\\booksapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\services\\booksmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|solutionrelative:p0004\\services\\booksmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\dtos\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P004.csproj|solutionrelative:p0004\\dtos\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\dtos\\bookapirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P004.csproj|solutionrelative:p0004\\dtos\\bookapirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\dtos\\bookapiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|solutionrelative:p0004\\dtos\\bookapiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\dtos\\bookresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|solutionrelative:p0004\\dtos\\bookresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p0004\\p0004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B63629-F1A8-489D-ADB4-0959C9914C0F}|P0004\\P0004.csproj|solutionrelative:p0004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookRequest.cs",
+              "RelativeDocumentMoniker": "P0004\\DTOs\\BookRequest.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookRequest.cs",
+              "RelativeToolTip": "P0004\\DTOs\\BookRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:16:54.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookAPIRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookAPIRequest.cs",
+              "RelativeDocumentMoniker": "P0004\\DTOs\\BookAPIRequest.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookAPIRequest.cs",
+              "RelativeToolTip": "P0004\\DTOs\\BookAPIRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:16:14.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "APIController.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Controllers\\APIController.cs",
+              "RelativeDocumentMoniker": "P0004\\Controllers\\APIController.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Controllers\\APIController.cs",
+              "RelativeToolTip": "P0004\\Controllers\\APIController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:25:20.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookResult.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookResult.cs",
+              "RelativeDocumentMoniker": "P0004\\DTOs\\BookResult.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookResult.cs",
+              "RelativeToolTip": "P0004\\DTOs\\BookResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:31:01.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksMapper.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Services\\BooksMapper.cs",
+              "RelativeDocumentMoniker": "P0004\\Services\\BooksMapper.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Services\\BooksMapper.cs",
+              "RelativeToolTip": "P0004\\Services\\BooksMapper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:28:37.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookAPIResult.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookAPIResult.cs",
+              "RelativeDocumentMoniker": "P0004\\DTOs\\BookAPIResult.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\DTOs\\BookAPIResult.cs",
+              "RelativeToolTip": "P0004\\DTOs\\BookAPIResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:56:08.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Program.cs",
+              "RelativeDocumentMoniker": "P0004\\Program.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Program.cs",
+              "RelativeToolTip": "P0004\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:30:40.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksAPIClient.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Services\\BooksAPIClient.cs",
+              "RelativeDocumentMoniker": "P0004\\Services\\BooksAPIClient.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P0004\\P0004\\Services\\BooksAPIClient.cs",
+              "RelativeToolTip": "P0004\\Services\\BooksAPIClient.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:26:44.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

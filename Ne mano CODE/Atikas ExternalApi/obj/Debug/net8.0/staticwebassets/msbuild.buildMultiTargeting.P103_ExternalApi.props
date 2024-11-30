@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\P103_ExternalApi.props" />
+</Project>

@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\Atikas ExternalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C53DB25-56D9-4E98-BE21-23E80C687B90}|..\\BooksApiClientTests\\BooksApiClientTests.csproj|c:\\projects\\.net\\codeacademy\\studies\\ne mano code\\booksapiclienttests\\booksapiclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E931DAB2-7411-480D-BE13-EE4E86A1083B}|P103_ExternalApi.csproj|c:\\projects\\.net\\codeacademy\\studies\\ne mano code\\atikas externalapi\\services\\booksapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E931DAB2-7411-480D-BE13-EE4E86A1083B}|P103_ExternalApi.csproj|solutionrelative:services\\booksapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E931DAB2-7411-480D-BE13-EE4E86A1083B}|P103_ExternalApi.csproj|c:\\projects\\.net\\codeacademy\\studies\\ne mano code\\atikas externalapi\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E931DAB2-7411-480D-BE13-EE4E86A1083B}|P103_ExternalApi.csproj|solutionrelative:controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksApiClientTests.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\BooksApiClientTests\\BooksApiClientTests.cs",
+              "RelativeDocumentMoniker": "..\\BooksApiClientTests\\BooksApiClientTests.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\BooksApiClientTests\\BooksApiClientTests.cs",
+              "RelativeToolTip": "..\\BooksApiClientTests\\BooksApiClientTests.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:35:12.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksApiClient.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\Atikas ExternalApi\\Services\\BooksApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\BooksApiClient.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\Atikas ExternalApi\\Services\\BooksApiClient.cs",
+              "RelativeToolTip": "Services\\BooksApiClient.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:33:59.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksApiController.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\Atikas ExternalApi\\Controllers\\BooksApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksApiController.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\Ne mano CODE\\Atikas ExternalApi\\Controllers\\BooksApiController.cs",
+              "RelativeToolTip": "Controllers\\BooksApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:28:10.878Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

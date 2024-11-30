@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagementService", "OrderManagementService\OrderManagementService.csproj", "{7939A8EF-344E-43EA-B3C0-36AD0E010034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderExecutionService", "OrderExecutionService\OrderExecutionService.csproj", "{166C5B75-7391-4B57-BEBA-120577BB913E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7939A8EF-344E-43EA-B3C0-36AD0E010034} = {7939A8EF-344E-43EA-B3C0-36AD0E010034}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7939A8EF-344E-43EA-B3C0-36AD0E010034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7939A8EF-344E-43EA-B3C0-36AD0E010034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7939A8EF-344E-43EA-B3C0-36AD0E010034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7939A8EF-344E-43EA-B3C0-36AD0E010034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166C5B75-7391-4B57-BEBA-120577BB913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166C5B75-7391-4B57-BEBA-120577BB913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166C5B75-7391-4B57-BEBA-120577BB913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166C5B75-7391-4B57-BEBA-120577BB913E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

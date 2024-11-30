@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\photosapi\\photosapi\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|solutionrelative:photosapi\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\photosapi\\photosapi\\services\\imageresizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|solutionrelative:photosapi\\services\\imageresizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\photosapi\\photosapi\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|solutionrelative:photosapi\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\photosapi\\photosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|solutionrelative:photosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\photosapi\\photosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704A27DC-BA18-4A2B-AE21-54DC9C17335F}|PhotosAPI\\PhotosAPI.csproj|solutionrelative:photosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 340,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "PhotosAPI\\Models\\Photo.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Models\\Photo.cs",
+              "RelativeToolTip": "PhotosAPI\\Models\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:23:34.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PhotosAPI\\appsettings.json",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\appsettings.json",
+              "RelativeToolTip": "PhotosAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-28T16:06:11.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageResizerService.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Services\\ImageResizerService.cs",
+              "RelativeDocumentMoniker": "PhotosAPI\\Services\\ImageResizerService.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Services\\ImageResizerService.cs",
+              "RelativeToolTip": "PhotosAPI\\Services\\ImageResizerService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:05:43.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhotosController.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Controllers\\PhotosController.cs",
+              "RelativeDocumentMoniker": "PhotosAPI\\Controllers\\PhotosController.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Controllers\\PhotosController.cs",
+              "RelativeToolTip": "PhotosAPI\\Controllers\\PhotosController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:41:00.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PhotosAPI\\Program.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\PhotosAPI\\PhotosAPI\\Program.cs",
+              "RelativeToolTip": "PhotosAPI\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:13:40.677Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

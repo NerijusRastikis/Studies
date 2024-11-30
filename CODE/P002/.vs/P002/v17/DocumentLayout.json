@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{957E6331-9E50-4424-9373-3C619A0FB5F2}|P002\\P002.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p002\\p002\\controllers\\gamelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957E6331-9E50-4424-9373-3C619A0FB5F2}|P002\\P002.csproj|solutionrelative:p002\\controllers\\gamelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F763526D-0972-4F8E-9E54-3651EDA82C56}|GameLibraryTests\\GameLibraryTests.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p002\\gamelibrarytests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F763526D-0972-4F8E-9E54-3651EDA82C56}|GameLibraryTests\\GameLibraryTests.csproj|solutionrelative:gamelibrarytests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957E6331-9E50-4424-9373-3C619A0FB5F2}|P002\\P002.csproj|c:\\projects\\.net\\codeacademy\\studies\\code\\p002\\p002\\models\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957E6331-9E50-4424-9373-3C619A0FB5F2}|P002\\P002.csproj|solutionrelative:p002\\models\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\GameLibraryTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "GameLibraryTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\GameLibraryTests\\UnitTest1.cs",
+              "RelativeToolTip": "GameLibraryTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:39:31.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameLibrary.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\P002\\Controllers\\GameLibrary.cs",
+              "RelativeDocumentMoniker": "P002\\Controllers\\GameLibrary.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\P002\\Controllers\\GameLibrary.cs",
+              "RelativeToolTip": "P002\\Controllers\\GameLibrary.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:08:52.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\P002\\Models\\VideoGame.cs",
+              "RelativeDocumentMoniker": "P002\\Models\\VideoGame.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\CODE\\P002\\P002\\Models\\VideoGame.cs",
+              "RelativeToolTip": "P002\\Models\\VideoGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:05:19.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

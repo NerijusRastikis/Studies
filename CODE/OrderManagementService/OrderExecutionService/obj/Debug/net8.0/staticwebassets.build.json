@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ytZv/ChaK2DXyt0/2yq6mza6eNUaGOJnWXMi1yVKZH8=",
+  "Source": "OrderExecutionService",
+  "BasePath": "_content/OrderExecutionService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
