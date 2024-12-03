@@ -2,6 +2,7 @@ namespace AsmensRegistravimoSistema.Models;
 
 public class UserInformation
 {
+    public Guid Id { get; set; }
     public string Name { get; set; }
     public string Surname { get; set; }
     public int UserId { get; set; }

@@ -15,7 +15,7 @@
     <Folder Include="Database\Interfaces\" />
     <Folder Include="DTOs\Results\" />
     <Folder Include="Services\Interfaces\" />
-    <Folder Include="Validators\" />
+    <Folder Include="Services\Validators\" />
   </ItemGroup>
 
 </Project>
