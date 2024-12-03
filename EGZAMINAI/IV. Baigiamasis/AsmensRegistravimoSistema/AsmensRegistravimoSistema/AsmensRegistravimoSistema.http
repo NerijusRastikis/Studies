@@ -1,0 +1,6 @@
+@AsmensRegistravimoSistema_HostAddress = http://localhost:5098
+
+GET {{AsmensRegistravimoSistema_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
