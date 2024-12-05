@@ -15,10 +15,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Database\Repositories\" />
-    <Folder Include="Mappers\" />
-    <Folder Include="Services\Interfaces\" />
-  </ItemGroup>
-
 </Project>

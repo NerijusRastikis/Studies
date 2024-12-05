@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsmensRegistravimoSistemaI2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59db3145091dd6e92963fb4f4bc19eec2240c90d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e174ff707770e10374bfecffee267897478b7cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsmensRegistravimoSistemaI2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsmensRegistravimoSistemaI2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
