@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\",
+  "WorkspaceRootPath": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\database\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\database\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\codeacademy\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Database\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Database\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:51:19.048Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Mappers\\UserMapper.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Mappers\\UserMapper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T17:57:08.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Projects\\.NET\\CodeAcademy\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
               "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T19:37:46.229Z",
               "EditorCaption": ""

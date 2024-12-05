@@ -1,8 +1,9 @@
-﻿using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
+﻿using AsmensRegistravimoSistemaI2.Database.Interfaces;
+using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
 
 namespace AsmensRegistravimoSistemaI2.Database.Repositories
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly ARSDbContext _context;
 
@@ -34,7 +35,15 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
 
             return _context.Users.FirstOrDefault(x => x.Username == username);
         }
-
+        public List<string> GetUsers()
+        {
+            List<string> listOfUsers = new List<string>();
+            foreach (var user in _context.Users.ToList())
+            {
+                listOfUsers.Add(user.Username);
+            }
+            return listOfUsers;
+        }
         public bool DeleteUser(Guid id)
         {
             var user = _context.Users.Find(id);
@@ -45,6 +54,11 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
                 return true;
             }
             return false;
+        }
+
+        List<User> IUserRepository.GetUsers()
+        {
+            throw new NotImplementedException();
         }
     }
 }

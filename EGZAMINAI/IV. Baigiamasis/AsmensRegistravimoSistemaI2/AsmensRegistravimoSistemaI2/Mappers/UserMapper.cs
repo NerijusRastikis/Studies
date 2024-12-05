@@ -1,10 +1,11 @@
 ﻿using AsmensRegistravimoSistemaI2.DTOs.Requests;
+using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
 using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
 using AsmensRegistravimoSistemaI2.Services.Interfaces;
 
 namespace AsmensRegistravimoSistemaI2.Mappers
 {
-    public class UserMapper
+    public class UserMapper : IUserMapper
     {
         private readonly IUserService _userService;
 
@@ -20,7 +21,6 @@ namespace AsmensRegistravimoSistemaI2.Mappers
                 Username = dto.Username,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Roles = dto.Roles
             };
         }
     }
