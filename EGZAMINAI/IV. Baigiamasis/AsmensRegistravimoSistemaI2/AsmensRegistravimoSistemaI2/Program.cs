@@ -1,5 +1,9 @@
 
 using AsmensRegistravimoSistemaI2.Database;
+using AsmensRegistravimoSistemaI2.Database.Interfaces;
+using AsmensRegistravimoSistemaI2.Database.Repositories;
+using AsmensRegistravimoSistemaI2.Mappers;
+using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace AsmensRegistravimoSistemaI2
@@ -14,6 +18,8 @@ namespace AsmensRegistravimoSistemaI2
 
             builder.Services.AddDbContext<ARSDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("Database")));
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddTransient<IUserMapper, UserMapper>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

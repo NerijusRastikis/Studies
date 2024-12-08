@@ -1,7 +1,6 @@
 ﻿using AsmensRegistravimoSistemaI2.Database.Interfaces;
 using AsmensRegistravimoSistemaI2.DTOs.Requests;
 using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AsmensRegistravimoSistemaI2.Controllers
