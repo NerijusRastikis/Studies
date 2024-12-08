@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace AsmensRegistravimoSistemaI2.Models.UserControllerModels
 {
@@ -13,5 +14,8 @@ namespace AsmensRegistravimoSistemaI2.Models.UserControllerModels
         public byte[] PasswordSalt { get; set; }
         public byte[] PasswordHash { get; set; }
         public RoleTypes Roles { get; set; } = RoleTypes.User;
+
+        //Foreign Key
+        public GeneralInformation UserGeneralInformation { get; set; }
     }
 }

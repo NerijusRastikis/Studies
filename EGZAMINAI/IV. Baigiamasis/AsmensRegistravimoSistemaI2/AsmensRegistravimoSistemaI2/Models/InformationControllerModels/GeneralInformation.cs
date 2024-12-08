@@ -1,4 +1,5 @@
 ﻿using AsmensRegistravimoSistemaI2.Models.ImageControllerModels;
+using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace AsmensRegistravimoSistemaI2.Models.InformationControllerModels
@@ -21,5 +22,10 @@ namespace AsmensRegistravimoSistemaI2.Models.InformationControllerModels
         public Image ProfilePhoto { get; set; }
         [Required]
         public Address UserAddress { get; set; }
+
+        public User User { get; set; }
+
+        // Foreign Key
+        public Guid UserId { get; set; }
     }
 }

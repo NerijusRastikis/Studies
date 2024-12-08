@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "YFN+SWcNuZLA29QfiHgZiK3RFQQD87DyWMVrv1fK+/U=",
+  "Hash": "PEAV/Y5KE3A0OYdvUKj/ceEp+ZttMv69ih+wBXzUyHY=",
   "Source": "AsmensRegistravimoSistemaI2",
   "BasePath": "_content/AsmensRegistravimoSistemaI2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
