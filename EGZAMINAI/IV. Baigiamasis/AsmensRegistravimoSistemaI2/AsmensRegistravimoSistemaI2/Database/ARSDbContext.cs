@@ -32,6 +32,16 @@ namespace AsmensRegistravimoSistemaI2.Database
                 .WithOne(gi => gi.User)
                 .HasForeignKey<GeneralInformation>(gi => gi.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<GeneralInformation>()
+                .HasOne(a => a.UserAddress)
+                .WithOne(b => b.UserGeneralInformation)
+                .HasForeignKey<GeneralInformation>(a => a.UserPIN)
+                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<Image>()
+                .HasOne(a => a.User)
+                .WithOne(b => b.UserImage)
+                .HasForeignKey<Image>(a => a.Username);
         }
     }
 }

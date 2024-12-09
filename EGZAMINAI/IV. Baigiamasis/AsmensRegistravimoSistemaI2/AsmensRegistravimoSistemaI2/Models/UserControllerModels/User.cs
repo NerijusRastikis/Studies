@@ -1,4 +1,5 @@
-﻿using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
+﻿using AsmensRegistravimoSistemaI2.Models.ImageControllerModels;
+using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace AsmensRegistravimoSistemaI2.Models.UserControllerModels
@@ -17,5 +18,6 @@ namespace AsmensRegistravimoSistemaI2.Models.UserControllerModels
 
         //Foreign Key
         public GeneralInformation UserGeneralInformation { get; set; }
+        public Image UserImage { get; set; }
     }
 }
