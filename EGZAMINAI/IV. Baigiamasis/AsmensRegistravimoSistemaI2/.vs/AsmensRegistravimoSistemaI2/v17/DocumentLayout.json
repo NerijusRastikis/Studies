@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\database\\arsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\database\\arsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\usercontrollermodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\usercontrollermodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Migrations\\20241209142843_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AsmensRegistravimoSistemaI2\\Migrations\\20241209142843_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\imagecontrollermodels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\imagecontrollermodels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\migrations\\20241209142322_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\migrations\\20241209142322_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\database\\initialdata\\generalinformationinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\database\\initialdata\\generalinformationinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\informationcontrollermodels\\generalinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\informationcontrollermodels\\generalinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\informationcontrollermodels\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\informationcontrollermodels\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\usercontrollermodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\usercontrollermodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\database\\initialdata\\usersinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\database\\initialdata\\usersinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\database\\arsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\database\\arsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\imagecontrollermodels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\imagecontrollermodels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\database\\initialdata\\imagesinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\database\\initialdata\\imagesinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\models\\informationcontrollermodels\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|solutionrelative:asmensregistravimosistemai2\\models\\informationcontrollermodels\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F79C4791-4800-48E9-A760-9359A415B183}|AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2.csproj|c:\\projects\\.net\\studies\\egzaminai\\iv. baigiamasis\\asmensregistravimosistemai2\\asmensregistravimosistemai2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +62,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "20241209142843_init2.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Migrations\\20241209142843_init2.cs",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Migrations\\20241209142843_init2.cs",
+              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Migrations\\20241209142843_init2.cs",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Migrations\\20241209142843_init2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:28:43.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\appsettings.json",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\appsettings.json",
+              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\appsettings.json",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T14:26:35.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241209142322_init.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Migrations\\20241209142322_init.cs",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Migrations\\20241209142322_init.cs",
+              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Migrations\\20241209142322_init.cs",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Migrations\\20241209142322_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:25:55.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersInitialData.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\InitialData\\UsersInitialData.cs",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Database\\InitialData\\UsersInitialData.cs",
+              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\InitialData\\UsersInitialData.cs",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Database\\InitialData\\UsersInitialData.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwDgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:34:01.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneralInformationInitialData.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\InitialData\\GeneralInformationInitialData.cs",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Database\\InitialData\\GeneralInformationInitialData.cs",
+              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\InitialData\\GeneralInformationInitialData.cs",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Database\\InitialData\\GeneralInformationInitialData.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswD4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:33:31.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImagesInitialData.cs",
+              "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\InitialData\\ImagesInitialData.cs",
+              "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Database\\InitialData\\ImagesInitialData.cs",
+              "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\InitialData\\ImagesInitialData.cs",
+              "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Database\\InitialData\\ImagesInitialData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:27:32.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\Address.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\Address.cs",
@@ -50,12 +151,11 @@
               "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T08:32:52.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T08:32:52.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Image.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Models\\ImageControllerModels\\Image.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Models\\ImageControllerModels\\Image.cs",
@@ -63,12 +163,11 @@
               "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Models\\ImageControllerModels\\Image.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T08:24:30.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T08:24:30.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Models\\UserControllerModels\\User.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Models\\UserControllerModels\\User.cs",
@@ -81,45 +180,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GeneralInformation.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\GeneralInformation.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\GeneralInformation.cs",
               "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\GeneralInformation.cs",
               "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Models\\InformationControllerModels\\GeneralInformation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T12:15:47.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ARSDbContext.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\ARSDbContext.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Database\\ARSDbContext.cs",
               "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Database\\ARSDbContext.cs",
               "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Database\\ARSDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:35:17.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Program.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Program.cs",
               "ToolTip": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Program.cs",
               "RelativeToolTip": "AsmensRegistravimoSistemaI2\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:28:26.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Projects\\.NET\\Studies\\EGZAMINAI\\IV. Baigiamasis\\AsmensRegistravimoSistemaI2\\AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AsmensRegistravimoSistemaI2\\Controllers\\UserController.cs",
