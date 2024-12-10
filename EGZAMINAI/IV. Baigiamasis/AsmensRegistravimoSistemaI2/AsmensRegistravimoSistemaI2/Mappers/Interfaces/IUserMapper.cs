@@ -1,5 +1,5 @@
 ﻿using AsmensRegistravimoSistemaI2.DTOs.Requests;
-using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
+using AsmensRegistravimoSistemaI2.Models;
 
 namespace AsmensRegistravimoSistemaI2.Mappers.Interfaces
 {

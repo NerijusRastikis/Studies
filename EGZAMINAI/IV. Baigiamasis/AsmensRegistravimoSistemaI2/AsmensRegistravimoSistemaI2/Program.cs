@@ -20,12 +20,15 @@ namespace AsmensRegistravimoSistemaI2
 
             builder.Services.AddDbContext<ARSDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("Database")));
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddTransient<IUserMapper, UserMapper>();
             builder.Services.AddTransient<IUserService, UserService>();
-            builder.Services.AddTransient<IImageMapper, ImageMapper>();
+
+            builder.Services.AddTransient<IUserMapper, UserMapper>();
             builder.Services.AddTransient<IGeneralInformationMapper, GeneralInformationMapper>();
             builder.Services.AddTransient<IAddressMapper, AddressMapper>();
+
+            builder.Services.AddScoped<IAddressRepository, AddressRepository>();
+            builder.Services.AddScoped<IGIRepository, GIRepository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

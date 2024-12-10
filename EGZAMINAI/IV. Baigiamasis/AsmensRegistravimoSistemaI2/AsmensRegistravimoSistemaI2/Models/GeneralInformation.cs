@@ -1,6 +1,5 @@
-﻿using AsmensRegistravimoSistemaI2.Models.ImageControllerModels;
-using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
-using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
+﻿using AsmensRegistravimoSistemaI2.Models;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System.ComponentModel.DataAnnotations;
 
 public class GeneralInformation
@@ -11,7 +10,7 @@ public class GeneralInformation
     [Required]
     public string LastName { get; set; }
     [Required]
-    public long UserPIN { get; set; }
+    public long PersonalCode { get; set; }
     [Required]
     public string PhoneNumber { get; set; }
     [Required]
@@ -20,10 +19,9 @@ public class GeneralInformation
     public Address GIAddress { get; set; }
     [Required]
 
-    public Image GIImage { get; set; }
+    public byte[] GIImage { get; set; }
 
 
     // Foreign Key
-    public Guid ProfilePhotoId { get; set; }
     public Guid UserAddressId { get; set; }
 }

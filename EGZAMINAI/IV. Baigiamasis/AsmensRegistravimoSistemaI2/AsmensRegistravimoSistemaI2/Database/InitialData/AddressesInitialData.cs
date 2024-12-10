@@ -1,4 +1,4 @@
-﻿using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
+﻿using AsmensRegistravimoSistemaI2.Models;
 
 namespace AsmensRegistravimoSistemaI2.Database.InitialData
 {
@@ -9,7 +9,6 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             new Address
             {
                 Id = new Guid("00000000-0000-0000-0000-000000000001"),
-                UserPIN = 11223344556,
                 Town = "Saulėkalnis",
                 Street = "Žydinčių Pieščių alėja",
                 HouseNumber = "24",
@@ -18,7 +17,6 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             new Address
             {
                 Id = new Guid("00000000-0000-0000-0000-000000000002"),
-                UserPIN = 11223344557,
                 Town = "Uolynėlis",
                 Street = "Kalnų viršūnės gatvė",
                 HouseNumber = "8A",
@@ -27,7 +25,6 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             new Address
             {
                 Id = new Guid("00000000-0000-0000-0000-000000000003"),
-                UserPIN = 11223344558,
                 Town = "Ežerpilis",
                 Street = "Ramybės Šilų prospektas",
                 HouseNumber = "56",
@@ -36,7 +33,6 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             new Address
             {
                 Id = new Guid("00000000-0000-0000-0000-000000000004"),
-                UserPIN = 11223344559,
                 Town = "Šiloklėnis",
                 Street = "Šimtamečių Ąžuolų gatvė",
                 HouseNumber = "101",
@@ -45,7 +41,6 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             new Address
             {
                 Id = new Guid("00000000-0000-0000-0000-000000000005"),
-                UserPIN = 11223344550,
                 Town = "Gintarkrantė",
                 Street = "Pajūrio Saulėlydžio takas",
                 HouseNumber = "7",

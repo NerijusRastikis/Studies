@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "AsmensRegistravimoSistemaI2.DTOs.Requests.UserDTORequest",
+        "Type": "AsmensRegistravimoSistemaI2.DTOs.Requests.UserModelDTORequest",
         "IsRequired": true
       }
     ],

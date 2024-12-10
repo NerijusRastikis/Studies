@@ -10,38 +10,60 @@ namespace AsmensRegistravimoSistemaI2.Controllers
     public class UserController : ControllerBase
     {
         private readonly ILogger<UserController> _logger;
-        private readonly IUserRepository _userContext;
+
+        private readonly IUserRepository _userRepo;
 
         private readonly IUserMapper _userMap;
         private readonly IGeneralInformationMapper _generalMap;
-        private readonly IImageMapper _imageMap;
         private readonly IAddressMapper _addressMap;
 
-        public UserController(ILogger<UserController> logger, IUserRepository context, IUserMapper map, IGeneralInformationMapper generalMap, IImageMapper imageMap, IAddressMapper addressMap)
+        public UserController(ILogger<UserController> logger, IUserRepository context, IUserMapper map, IGeneralInformationMapper generalMap, IAddressMapper addressMap)
         {
             _logger = logger;
-            _context = context;
-            _map = map;
+            _userRepo = context;
+            _userMap = map;
             _generalMap = generalMap;
-            _imageMap = imageMap;
             _addressMap = addressMap;
         }
         [HttpPost("Sign Up")]
-        public IActionResult CreateUser([FromBody] UserDTORequest userRequest, [FromBody] ImageDTORequest imageRequest, [FromBody] GeneralInformationDTORequest generalRequest, [FromBody] AddressDTORequest addressRequest)
+        public IActionResult CreateUser([FromBody] UserModelDTORequest request)
         {
-            _logger.LogInformation("Creating new user with username: {username}", userRequest.Username);
+            _logger.LogInformation("Creating new user with username: {username}", request.Username);
             var newId = new Guid();
-            var user = _userMap.Map(userRequest, newId);
-            var image = _imageMap.Map(imageRequest, newId);
-            var generalInfo = _generalMap.Map(generalRequest, newId);
-            var address = _addressMap.Map(addressRequest, newId);
-            
+            var newUserDTO = new UserDTORequest
+            {
+                Username = request.Username,
+                Password = request.Password,
+            };
+            var newGIDTO = new GeneralInformationDTORequest
+            {
+                FirstName = request.FirstName,
+                LastName = request.LastName,
+                PersonalCode = request.PersonalCode,
+                PhoneNumber = request.PhoneNumber,
+                Email = request.Email,
+                ProfilePhoto = request.GIImage,
+            };
+            var newAddressDTO = new AddressDTORequest
+            {
+                Town = request.Town,
+                Street = request.Street,
+                HouseNumber = request.HouseNumber,
+                ApartmentNumber = request.ApartmentNumber,
+            };
+            var newAddress = _addressMap.Map(newAddressDTO, newId);
+            var newGI = _generalMap.Map(newGIDTO, newId);
+            newGI.GIAddress = newAddress;
+            var newUser = _userMap.Map(newUserDTO, newId);
+
+            _userRepo.CreateUser(newUser);
+
         }
-        [HttpGet("GetAllUsers")]
-        public IActionResult GetAllUsers()
+        [HttpGet("GetAllUsernames")]
+        public IActionResult GetAllUsernames()
         {
             _logger.LogInformation("User is getting all system usernames.");
-            var listOfUsers = _context.GetUsers();
+            var listOfUsers = _userRepo.GetUsers();
             if (listOfUsers is not null)
             {
                 return Ok(listOfUsers);
@@ -52,7 +74,7 @@ namespace AsmensRegistravimoSistemaI2.Controllers
         public IActionResult GetUserByUsername(string username)
         {
             _logger.LogInformation("User is searching {username}", username);
-            var selectedUser = _context.GetUser(username);
+            var selectedUser = _userRepo.GetUser(username);
             if (selectedUser != null)
             {
                 return Ok(selectedUser);

@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTORequest"
+                "$ref": "#/components/schemas/UserModelDTORequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTORequest"
+                "$ref": "#/components/schemas/UserModelDTORequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTORequest"
+                "$ref": "#/components/schemas/UserModelDTORequest"
               }
             }
           }
@@ -73,15 +73,86 @@
   },
   "components": {
     "schemas": {
-      "UserDTORequest": {
+      "Address": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "userPIN": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "town": {
+            "type": "string",
+            "nullable": true
+          },
+          "street": {
+            "type": "string",
+            "nullable": true
+          },
+          "houseNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "apartmentNumber": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleTypes": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "UserModelDTORequest": {
         "type": "object",
         "properties": {
           "username": {
             "type": "string",
             "nullable": true
           },
+          "roles": {
+            "$ref": "#/components/schemas/RoleTypes"
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "personalCode": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "giAddress": {
+            "$ref": "#/components/schemas/Address"
+          },
           "password": {
             "type": "string",
+            "nullable": true
+          },
+          "giImage": {
+            "type": "string",
+            "format": "byte",
             "nullable": true
           }
         },

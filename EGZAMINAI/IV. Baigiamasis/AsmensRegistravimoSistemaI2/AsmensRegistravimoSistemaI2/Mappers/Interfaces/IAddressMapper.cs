@@ -1,6 +1,6 @@
 ﻿using AsmensRegistravimoSistemaI2.DTOs.Requests;
 using AsmensRegistravimoSistemaI2.DTOs.Results;
-using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
+using AsmensRegistravimoSistemaI2.Models;
 
 namespace AsmensRegistravimoSistemaI2.Mappers.Interfaces
 {

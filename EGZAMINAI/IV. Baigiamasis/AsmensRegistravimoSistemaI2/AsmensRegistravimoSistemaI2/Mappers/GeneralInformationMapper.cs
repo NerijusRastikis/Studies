@@ -13,7 +13,7 @@ namespace AsmensRegistravimoSistemaI2.Mappers
             {
                 FirstName = gI.FirstName,
                 LastName = gI.LastName,
-                UserPIN = gI.UserPIN,
+                PersonalCode = gI.PersonalCode,
                 PhoneNumber = gI.PhoneNumber,
                 Email = gI.Email,
             };
@@ -26,7 +26,7 @@ namespace AsmensRegistravimoSistemaI2.Mappers
                 Id = id,
                 FirstName = gIrequest.FirstName,
                 LastName = gIrequest.LastName,
-                UserPIN = gIrequest.UserPIN,
+                PersonalCode = gIrequest.PersonalCode,
                 PhoneNumber = gIrequest.PhoneNumber,
                 Email = gIrequest.Email,
             };

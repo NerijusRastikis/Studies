@@ -1,5 +1,5 @@
 ﻿using AsmensRegistravimoSistemaI2.Database.Interfaces;
-using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
+using AsmensRegistravimoSistemaI2.Models;
 
 namespace AsmensRegistravimoSistemaI2.Database.Repositories
 {
@@ -36,7 +36,6 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
             var selectedUserId = selectedUser.Id;
             selectedUser.UserGeneralInformation = _context.GeneralInfos.FirstOrDefault(x => x.Id == selectedUserId);
             selectedUser.UserGeneralInformation.GIAddress = _context.Addresses.FirstOrDefault(x => x.Id == selectedUserId);
-            selectedUser.UserGeneralInformation.GIImage = _context.Images.FirstOrDefault(x => x.Id == selectedUserId);
             return selectedUser;
         }
         public List<string> GetUsers()

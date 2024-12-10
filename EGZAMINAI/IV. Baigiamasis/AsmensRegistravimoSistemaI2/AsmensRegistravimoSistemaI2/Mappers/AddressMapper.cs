@@ -1,7 +1,7 @@
 ﻿using AsmensRegistravimoSistemaI2.DTOs.Requests;
 using AsmensRegistravimoSistemaI2.DTOs.Results;
 using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
-using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
+using AsmensRegistravimoSistemaI2.Models;
 
 namespace AsmensRegistravimoSistemaI2.Mappers
 {
@@ -12,7 +12,6 @@ namespace AsmensRegistravimoSistemaI2.Mappers
         {
             return new AddressDTOResult
             {
-                UserPIN = address.UserPIN,
                 Town = address.Town,
                 Street = address.Street,
                 HouseNumber = address.HouseNumber,
@@ -25,7 +24,6 @@ namespace AsmensRegistravimoSistemaI2.Mappers
             return new Address
             {
                 Id = id,
-                UserPIN = address.UserPIN,
                 Town = address.Town,
                 Street = address.Street,
                 HouseNumber = address.HouseNumber,

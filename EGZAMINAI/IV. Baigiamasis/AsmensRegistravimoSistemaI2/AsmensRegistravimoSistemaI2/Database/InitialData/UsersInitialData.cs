@@ -1,4 +1,4 @@
-﻿using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
+﻿using AsmensRegistravimoSistemaI2.Models;
 using System.Security.Cryptography;
 using System.Text;
 

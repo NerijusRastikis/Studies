@@ -1,8 +1,6 @@
-﻿using AsmensRegistravimoSistemaI2.Models.ImageControllerModels;
-using AsmensRegistravimoSistemaI2.Models.InformationControllerModels;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace AsmensRegistravimoSistemaI2.Models.UserControllerModels
+namespace AsmensRegistravimoSistemaI2.Models
 {
     public class User
     {

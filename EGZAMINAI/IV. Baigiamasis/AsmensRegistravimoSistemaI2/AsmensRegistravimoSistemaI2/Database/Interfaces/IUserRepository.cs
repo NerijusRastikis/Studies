@@ -1,4 +1,4 @@
-﻿using AsmensRegistravimoSistemaI2.Models.UserControllerModels;
+﻿using AsmensRegistravimoSistemaI2.Models;
 
 namespace AsmensRegistravimoSistemaI2.Database.Interfaces
 {
