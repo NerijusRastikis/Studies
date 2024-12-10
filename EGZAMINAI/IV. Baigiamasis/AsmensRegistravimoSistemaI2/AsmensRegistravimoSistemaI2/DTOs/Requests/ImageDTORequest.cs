@@ -3,6 +3,6 @@
     public class ImageDTORequest
     {
         public string Username { get; set; }
-        public byte[] Photo { get; set; }
+        public IFormFile Photo { get; set; }
     }
 }

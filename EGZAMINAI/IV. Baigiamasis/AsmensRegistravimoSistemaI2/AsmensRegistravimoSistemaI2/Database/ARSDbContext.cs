@@ -18,30 +18,34 @@ namespace AsmensRegistravimoSistemaI2.Database
         {
             if (!SkipSeeding)
             {
-                modelBuilder.Entity<User>()
-                .HasData(UsersInitialData.Users);
+                modelBuilder.Entity<Address>()
+                    .HasData(AddressesInitialData.Addresses);
                 modelBuilder.Entity<Image>()
                     .HasData(ImagesInitialData.Images);
                 modelBuilder.Entity<GeneralInformation>()
                     .HasData(GeneralInformationInitialData.GeneralInfos);
-                modelBuilder.Entity<Address>()
-                    .HasData(AddressesInitialData.Addresses);
+                modelBuilder.Entity<User>()
+                    .HasData(UsersInitialData.Users);
             }
+
+            // User -> GeneralInformation relationship (one-to-one)
             modelBuilder.Entity<User>()
                 .HasOne(u => u.UserGeneralInformation)
-                .WithOne(gi => gi.User)
-                .HasForeignKey<GeneralInformation>(gi => gi.UserId)
+                .WithOne()
                 .OnDelete(DeleteBehavior.Restrict);
 
+            // GeneralInformation -> Address relationship (one-to-one)
             modelBuilder.Entity<GeneralInformation>()
-                .HasOne(a => a.UserAddress)
-                .WithOne(b => b.UserGeneralInformation)
-                .HasForeignKey<GeneralInformation>(a => a.Id)
+                .HasOne(gi => gi.GIAddress)
+                .WithOne()
+                .HasForeignKey<GeneralInformation>(gi => gi.UserAddressId)
                 .OnDelete(DeleteBehavior.Restrict);
-            modelBuilder.Entity<Image>()
-                .HasOne(a => a.User)
-                .WithOne(b => b.UserImage)
-                .HasForeignKey<Image>(a => a.Id)
+
+            // GeneralInformation -> Image relationship (one-to-one)
+            modelBuilder.Entity<GeneralInformation>()
+                .HasOne(gi => gi.GIImage)
+                .WithOne()
+                .HasForeignKey<GeneralInformation>(gi => gi.ProfilePhotoId)
                 .OnDelete(DeleteBehavior.Restrict);
         }
     }

@@ -30,21 +30,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Users",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PasswordSalt = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    PasswordHash = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    Roles = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Users", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Images",
                 columns: table => new
                 {
@@ -55,12 +40,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Images", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Images_Users_Id",
-                        column: x => x.Id,
-                        principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -73,7 +52,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                     UserPIN = table.Column<long>(type: "bigint", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ProfilePhotoId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UserAddressId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
@@ -81,8 +59,8 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                 {
                     table.PrimaryKey("PK_GeneralInfos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_GeneralInfos_Addresses_Id",
-                        column: x => x.Id,
+                        name: "FK_GeneralInfos_Addresses_UserAddressId",
+                        column: x => x.UserAddressId,
                         principalTable: "Addresses",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -91,11 +69,27 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                         column: x => x.ProfilePhotoId,
                         principalTable: "Images",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PasswordSalt = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
+                    PasswordHash = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
+                    Roles = table.Column<int>(type: "int", nullable: false),
+                    UserGeneralInformationId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_GeneralInfos_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
+                        name: "FK_Users_GeneralInfos_UserGeneralInformationId",
+                        column: x => x.UserGeneralInformationId,
+                        principalTable: "GeneralInfos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -113,18 +107,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Users",
-                columns: new[] { "Id", "PasswordHash", "PasswordSalt", "Roles", "Username" },
-                values: new object[,]
-                {
-                    { new Guid("00000000-0000-0000-0000-000000000001"), new byte[] { 237, 73, 164, 230, 255, 60, 6, 104, 235, 147, 14, 241, 219, 156, 250, 39, 216, 10, 164, 64, 0, 156, 118, 91, 28, 195, 214, 113, 55, 108, 194, 169 }, new byte[] { 80, 31, 52, 56, 7, 120, 189, 57, 81, 33, 86, 66, 115, 153, 78, 73, 50, 16, 32, 90, 202, 228, 25, 161, 20, 13, 166, 157, 207, 11, 19, 107, 103, 61, 192, 213, 108, 248, 150, 88, 218, 221, 70, 128, 105, 147, 0, 13, 76, 30, 38, 109, 113, 189, 108, 225, 42, 150, 74, 122, 49, 170, 185, 3 }, 1, "pirmas" },
-                    { new Guid("00000000-0000-0000-0000-000000000002"), new byte[] { 138, 23, 2, 105, 77, 211, 49, 191, 72, 191, 107, 60, 141, 107, 159, 167, 215, 27, 32, 119, 180, 33, 130, 229, 128, 208, 35, 13, 172, 201, 62, 138 }, new byte[] { 101, 244, 58, 191, 235, 93, 136, 157, 28, 246, 143, 205, 209, 163, 227, 10, 29, 105, 10, 25, 117, 18, 220, 182, 169, 187, 16, 15, 42, 192, 18, 211, 204, 148, 236, 113, 67, 157, 15, 242, 108, 159, 59, 201, 190, 143, 168, 96, 175, 21, 122, 101, 3, 8, 214, 202, 189, 248, 12, 80, 149, 138, 85, 49 }, 1, "antras" },
-                    { new Guid("00000000-0000-0000-0000-000000000003"), new byte[] { 136, 160, 100, 56, 203, 194, 199, 116, 105, 102, 85, 132, 48, 60, 99, 1, 220, 224, 45, 59, 171, 37, 129, 77, 96, 13, 26, 134, 195, 255, 209, 100 }, new byte[] { 82, 82, 237, 82, 100, 62, 54, 252, 227, 84, 86, 249, 82, 239, 188, 25, 60, 175, 176, 73, 155, 201, 54, 40, 173, 90, 75, 117, 214, 93, 205, 77, 156, 32, 16, 54, 176, 135, 250, 193, 84, 38, 206, 87, 213, 182, 187, 200, 137, 111, 90, 4, 80, 43, 242, 253, 197, 136, 95, 118, 24, 221, 108, 112 }, 3, "trecias" },
-                    { new Guid("00000000-0000-0000-0000-000000000004"), new byte[] { 147, 213, 41, 219, 14, 204, 99, 3, 70, 157, 186, 194, 7, 122, 148, 188, 11, 149, 169, 72, 19, 89, 137, 133, 15, 136, 44, 213, 44, 169, 93, 211 }, new byte[] { 180, 210, 176, 15, 210, 38, 201, 46, 21, 55, 234, 253, 17, 9, 44, 131, 60, 187, 100, 9, 95, 175, 179, 130, 74, 253, 147, 127, 18, 168, 68, 200, 48, 192, 72, 44, 213, 120, 47, 245, 163, 133, 68, 196, 0, 179, 70, 59, 146, 41, 154, 240, 15, 205, 117, 128, 122, 186, 79, 193, 130, 123, 217, 140 }, 1, "ketvirtas" },
-                    { new Guid("00000000-0000-0000-0000-000000000005"), new byte[] { 90, 97, 139, 8, 129, 8, 80, 173, 32, 170, 180, 205, 17, 202, 212, 27, 235, 47, 74, 174, 0, 251, 34, 58, 103, 250, 28, 245, 81, 87, 203, 221 }, new byte[] { 86, 239, 9, 145, 173, 169, 14, 137, 136, 50, 75, 165, 151, 143, 4, 161, 215, 154, 81, 121, 169, 85, 122, 1, 237, 141, 7, 56, 232, 29, 3, 162, 19, 153, 209, 38, 141, 157, 189, 53, 249, 165, 109, 173, 232, 84, 236, 58, 244, 176, 121, 171, 230, 121, 20, 74, 143, 228, 44, 132, 101, 235, 68, 195 }, 0, "penktas" }
-                });
-
-            migrationBuilder.InsertData(
                 table: "Images",
                 columns: new[] { "Id", "Photo", "Username" },
                 values: new object[,]
@@ -138,31 +120,53 @@ namespace AsmensRegistravimoSistemaI2.Migrations
 
             migrationBuilder.InsertData(
                 table: "GeneralInfos",
-                columns: new[] { "Id", "Email", "FirstName", "LastName", "PhoneNumber", "ProfilePhotoId", "UserAddressId", "UserId", "UserPIN" },
+                columns: new[] { "Id", "Email", "FirstName", "LastName", "PhoneNumber", "ProfilePhotoId", "UserAddressId", "UserPIN" },
                 values: new object[,]
                 {
-                    { new Guid("00000000-0000-0000-0000-000000000001"), "jonas.kalnietis@email.lt", "Jonas", "Kalnietis", "+37061234567", new Guid("00000000-0000-0000-0000-000000000001"), new Guid("00000000-0000-0000-0000-000000000001"), new Guid("00000000-0000-0000-0000-000000000001"), 11223344556L },
-                    { new Guid("00000000-0000-0000-0000-000000000002"), "egle.zieduole@email.lt", "Eglė", "Žieduolė", "+37062345678", new Guid("00000000-0000-0000-0000-000000000002"), new Guid("00000000-0000-0000-0000-000000000002"), new Guid("00000000-0000-0000-0000-000000000002"), 11223344557L },
-                    { new Guid("00000000-0000-0000-0000-000000000003"), "domas.uosis@email.lt", "Domas", "Uosis", "+37063456789", new Guid("00000000-0000-0000-0000-000000000003"), new Guid("00000000-0000-0000-0000-000000000003"), new Guid("00000000-0000-0000-0000-000000000003"), 11223344558L },
-                    { new Guid("00000000-0000-0000-0000-000000000004"), "ruta.smiltele@email.lt", "Rūta", "Smiltelė", "+37064567890", new Guid("00000000-0000-0000-0000-000000000004"), new Guid("00000000-0000-0000-0000-000000000004"), new Guid("00000000-0000-0000-0000-000000000004"), 11223344559L },
-                    { new Guid("00000000-0000-0000-0000-000000000005"), "lukas.jurenas@email.lt", "Lukas", "Jurėnas", "+37065678901", new Guid("00000000-0000-0000-0000-000000000005"), new Guid("00000000-0000-0000-0000-000000000005"), new Guid("00000000-0000-0000-0000-000000000005"), 11223344550L }
+                    { new Guid("00000000-0000-0000-0000-000000000001"), "jonas.kalnietis@email.lt", "Jonas", "Kalnietis", "+37061234567", new Guid("00000000-0000-0000-0000-000000000001"), new Guid("00000000-0000-0000-0000-000000000001"), 11223344556L },
+                    { new Guid("00000000-0000-0000-0000-000000000002"), "egle.zieduole@email.lt", "Eglė", "Žieduolė", "+37062345678", new Guid("00000000-0000-0000-0000-000000000002"), new Guid("00000000-0000-0000-0000-000000000002"), 11223344557L },
+                    { new Guid("00000000-0000-0000-0000-000000000003"), "domas.uosis@email.lt", "Domas", "Uosis", "+37063456789", new Guid("00000000-0000-0000-0000-000000000003"), new Guid("00000000-0000-0000-0000-000000000003"), 11223344558L },
+                    { new Guid("00000000-0000-0000-0000-000000000004"), "ruta.smiltele@email.lt", "Rūta", "Smiltelė", "+37064567890", new Guid("00000000-0000-0000-0000-000000000004"), new Guid("00000000-0000-0000-0000-000000000004"), 11223344559L },
+                    { new Guid("00000000-0000-0000-0000-000000000005"), "lukas.jurenas@email.lt", "Lukas", "Jurėnas", "+37065678901", new Guid("00000000-0000-0000-0000-000000000005"), new Guid("00000000-0000-0000-0000-000000000005"), 11223344550L }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "PasswordHash", "PasswordSalt", "Roles", "UserGeneralInformationId", "Username" },
+                values: new object[,]
+                {
+                    { new Guid("00000000-0000-0000-0000-000000000001"), new byte[] { 34, 153, 233, 158, 202, 223, 17, 127, 163, 75, 32, 126, 173, 233, 168, 33, 177, 180, 105, 108, 13, 131, 156, 58, 38, 162, 156, 122, 162, 144, 81, 127 }, new byte[] { 135, 224, 182, 131, 37, 163, 8, 177, 173, 46, 11, 169, 44, 249, 165, 175, 161, 125, 163, 228, 12, 159, 54, 184, 109, 255, 162, 111, 155, 255, 45, 40, 186, 169, 71, 47, 91, 144, 25, 247, 225, 35, 217, 3, 203, 62, 10, 254, 69, 227, 72, 244, 248, 24, 209, 93, 212, 245, 102, 162, 29, 205, 11, 157 }, 1, new Guid("00000000-0000-0000-0000-000000000001"), "pirmas" },
+                    { new Guid("00000000-0000-0000-0000-000000000002"), new byte[] { 25, 170, 124, 94, 115, 36, 236, 218, 251, 69, 228, 191, 35, 150, 124, 97, 126, 35, 91, 38, 189, 121, 65, 32, 80, 34, 185, 32, 155, 229, 170, 10 }, new byte[] { 59, 146, 191, 180, 208, 38, 160, 197, 216, 246, 88, 123, 241, 3, 41, 217, 16, 17, 62, 124, 83, 58, 95, 213, 238, 151, 102, 62, 6, 251, 96, 61, 193, 155, 228, 127, 98, 96, 90, 193, 229, 81, 174, 158, 118, 49, 83, 101, 221, 16, 138, 115, 195, 245, 218, 55, 121, 113, 150, 167, 98, 71, 21, 153 }, 1, new Guid("00000000-0000-0000-0000-000000000002"), "antras" },
+                    { new Guid("00000000-0000-0000-0000-000000000003"), new byte[] { 18, 23, 104, 107, 200, 66, 3, 124, 36, 85, 67, 117, 196, 73, 129, 194, 43, 108, 158, 130, 147, 180, 237, 185, 193, 71, 249, 55, 227, 177, 236, 24 }, new byte[] { 198, 196, 224, 78, 140, 90, 54, 147, 227, 177, 20, 173, 89, 15, 93, 170, 73, 98, 188, 172, 135, 26, 169, 76, 39, 174, 223, 14, 17, 81, 14, 26, 202, 165, 94, 179, 34, 133, 152, 194, 131, 196, 203, 196, 90, 139, 22, 186, 205, 26, 5, 144, 244, 126, 243, 239, 123, 102, 73, 113, 163, 224, 191, 133 }, 3, new Guid("00000000-0000-0000-0000-000000000003"), "trecias" },
+                    { new Guid("00000000-0000-0000-0000-000000000004"), new byte[] { 161, 157, 126, 236, 67, 246, 112, 209, 136, 130, 69, 74, 70, 223, 254, 136, 169, 60, 206, 107, 31, 85, 226, 58, 80, 192, 61, 193, 209, 66, 52, 39 }, new byte[] { 146, 226, 185, 192, 73, 143, 211, 55, 51, 234, 183, 90, 49, 24, 139, 171, 38, 137, 235, 225, 68, 154, 104, 95, 98, 63, 46, 74, 235, 62, 2, 91, 6, 64, 67, 190, 220, 33, 59, 8, 142, 95, 190, 249, 235, 168, 2, 132, 104, 57, 84, 180, 58, 1, 176, 188, 175, 29, 183, 92, 15, 199, 215, 140 }, 1, new Guid("00000000-0000-0000-0000-000000000004"), "ketvirtas" },
+                    { new Guid("00000000-0000-0000-0000-000000000005"), new byte[] { 214, 9, 178, 175, 14, 81, 156, 63, 12, 106, 149, 174, 185, 222, 80, 64, 106, 82, 119, 253, 118, 239, 184, 95, 23, 70, 166, 194, 207, 34, 49, 125 }, new byte[] { 218, 215, 212, 101, 207, 102, 136, 135, 242, 98, 46, 254, 132, 203, 185, 48, 72, 3, 170, 75, 78, 236, 192, 7, 123, 218, 200, 174, 198, 199, 242, 17, 56, 129, 207, 236, 225, 16, 53, 30, 108, 243, 184, 53, 82, 66, 19, 32, 60, 5, 31, 219, 103, 161, 152, 171, 49, 144, 164, 218, 23, 235, 225, 157 }, 1, new Guid("00000000-0000-0000-0000-000000000005"), "penktas" }
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_GeneralInfos_ProfilePhotoId",
                 table: "GeneralInfos",
-                column: "ProfilePhotoId");
+                column: "ProfilePhotoId",
+                unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_GeneralInfos_UserId",
+                name: "IX_GeneralInfos_UserAddressId",
                 table: "GeneralInfos",
-                column: "UserId",
+                column: "UserAddressId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_UserGeneralInformationId",
+                table: "Users",
+                column: "UserGeneralInformationId",
                 unique: true);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Users");
+
             migrationBuilder.DropTable(
                 name: "GeneralInfos");
 
@@ -171,9 +175,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
 
             migrationBuilder.DropTable(
                 name: "Images");
-
-            migrationBuilder.DropTable(
-                name: "Users");
         }
     }
 }

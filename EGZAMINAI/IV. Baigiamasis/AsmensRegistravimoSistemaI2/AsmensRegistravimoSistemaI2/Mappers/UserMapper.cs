@@ -13,11 +13,12 @@ namespace AsmensRegistravimoSistemaI2.Mappers
         {
             _userService = userService;
         }
-        public User Map(UserDTORequest dto)
+        public User Map(UserDTORequest dto, Guid id)
         {
             _userService.CreatePasswordHash(dto.Password, out var passwordHash, out var passwordSalt);
             return new User
             {
+                Id = id,
                 Username = dto.Username,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AsmensRegistravimoSistemaI2.Migrations
 {
     [DbContext(typeof(ARSDbContext))]
-    [Migration("20241209142843_init2")]
-    partial class init2
+    [Migration("20241209193256_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,6 +28,7 @@ namespace AsmensRegistravimoSistemaI2.Migrations
             modelBuilder.Entity("AsmensRegistravimoSistemaI2.Models.ImageControllerModels.Image", b =>
                 {
                     b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<byte[]>("Photo")
@@ -168,11 +169,17 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                     b.Property<int>("Roles")
                         .HasColumnType("int");
 
+                    b.Property<Guid>("UserGeneralInformationId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UserGeneralInformationId")
+                        .IsUnique();
 
                     b.ToTable("Users");
 
@@ -180,41 +187,46 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000001"),
-                            PasswordHash = new byte[] { 227, 204, 233, 251, 122, 243, 207, 115, 183, 29, 236, 109, 24, 56, 239, 167, 206, 202, 238, 186, 73, 84, 233, 8, 128, 177, 64, 212, 153, 156, 156, 254 },
-                            PasswordSalt = new byte[] { 145, 242, 209, 69, 2, 129, 144, 92, 4, 34, 56, 151, 149, 25, 235, 150, 81, 11, 105, 119, 132, 110, 9, 108, 244, 4, 208, 61, 165, 38, 40, 219, 225, 42, 148, 10, 192, 233, 23, 205, 86, 231, 85, 105, 15, 29, 143, 218, 252, 56, 179, 240, 103, 146, 187, 87, 40, 128, 246, 32, 156, 199, 137, 166 },
+                            PasswordHash = new byte[] { 34, 153, 233, 158, 202, 223, 17, 127, 163, 75, 32, 126, 173, 233, 168, 33, 177, 180, 105, 108, 13, 131, 156, 58, 38, 162, 156, 122, 162, 144, 81, 127 },
+                            PasswordSalt = new byte[] { 135, 224, 182, 131, 37, 163, 8, 177, 173, 46, 11, 169, 44, 249, 165, 175, 161, 125, 163, 228, 12, 159, 54, 184, 109, 255, 162, 111, 155, 255, 45, 40, 186, 169, 71, 47, 91, 144, 25, 247, 225, 35, 217, 3, 203, 62, 10, 254, 69, 227, 72, 244, 248, 24, 209, 93, 212, 245, 102, 162, 29, 205, 11, 157 },
                             Roles = 1,
+                            UserGeneralInformationId = new Guid("00000000-0000-0000-0000-000000000001"),
                             Username = "pirmas"
                         },
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000002"),
-                            PasswordHash = new byte[] { 72, 109, 186, 125, 245, 251, 115, 173, 106, 3, 124, 181, 190, 135, 159, 146, 213, 179, 100, 73, 110, 123, 165, 68, 188, 141, 0, 235, 211, 186, 107, 215 },
-                            PasswordSalt = new byte[] { 76, 76, 175, 181, 106, 108, 200, 141, 246, 113, 246, 227, 167, 146, 239, 156, 166, 199, 84, 50, 85, 18, 115, 84, 208, 12, 183, 205, 205, 226, 248, 114, 34, 170, 155, 28, 148, 242, 204, 107, 219, 162, 40, 93, 84, 44, 113, 24, 88, 79, 119, 85, 182, 56, 206, 231, 98, 125, 45, 177, 101, 139, 95, 249 },
+                            PasswordHash = new byte[] { 25, 170, 124, 94, 115, 36, 236, 218, 251, 69, 228, 191, 35, 150, 124, 97, 126, 35, 91, 38, 189, 121, 65, 32, 80, 34, 185, 32, 155, 229, 170, 10 },
+                            PasswordSalt = new byte[] { 59, 146, 191, 180, 208, 38, 160, 197, 216, 246, 88, 123, 241, 3, 41, 217, 16, 17, 62, 124, 83, 58, 95, 213, 238, 151, 102, 62, 6, 251, 96, 61, 193, 155, 228, 127, 98, 96, 90, 193, 229, 81, 174, 158, 118, 49, 83, 101, 221, 16, 138, 115, 195, 245, 218, 55, 121, 113, 150, 167, 98, 71, 21, 153 },
                             Roles = 1,
+                            UserGeneralInformationId = new Guid("00000000-0000-0000-0000-000000000002"),
                             Username = "antras"
                         },
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000003"),
-                            PasswordHash = new byte[] { 184, 170, 135, 54, 171, 194, 69, 248, 77, 36, 238, 218, 172, 143, 168, 10, 196, 58, 101, 176, 189, 86, 136, 72, 102, 67, 49, 3, 77, 118, 97, 29 },
-                            PasswordSalt = new byte[] { 11, 89, 127, 112, 10, 202, 45, 20, 52, 26, 104, 97, 226, 65, 251, 143, 11, 200, 229, 126, 126, 215, 200, 146, 9, 206, 73, 179, 178, 144, 62, 175, 165, 223, 237, 105, 83, 235, 133, 111, 78, 185, 73, 154, 7, 166, 22, 106, 152, 207, 175, 210, 232, 132, 161, 44, 200, 130, 176, 93, 195, 93, 63, 46 },
+                            PasswordHash = new byte[] { 18, 23, 104, 107, 200, 66, 3, 124, 36, 85, 67, 117, 196, 73, 129, 194, 43, 108, 158, 130, 147, 180, 237, 185, 193, 71, 249, 55, 227, 177, 236, 24 },
+                            PasswordSalt = new byte[] { 198, 196, 224, 78, 140, 90, 54, 147, 227, 177, 20, 173, 89, 15, 93, 170, 73, 98, 188, 172, 135, 26, 169, 76, 39, 174, 223, 14, 17, 81, 14, 26, 202, 165, 94, 179, 34, 133, 152, 194, 131, 196, 203, 196, 90, 139, 22, 186, 205, 26, 5, 144, 244, 126, 243, 239, 123, 102, 73, 113, 163, 224, 191, 133 },
                             Roles = 3,
+                            UserGeneralInformationId = new Guid("00000000-0000-0000-0000-000000000003"),
                             Username = "trecias"
                         },
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000004"),
-                            PasswordHash = new byte[] { 43, 217, 37, 145, 38, 197, 182, 25, 248, 248, 73, 178, 172, 184, 138, 133, 79, 6, 102, 219, 144, 51, 78, 222, 114, 21, 105, 54, 69, 197, 103, 20 },
-                            PasswordSalt = new byte[] { 75, 35, 9, 93, 108, 33, 202, 156, 109, 12, 62, 14, 97, 138, 111, 45, 170, 0, 37, 247, 60, 171, 187, 195, 59, 245, 235, 179, 133, 100, 83, 102, 32, 247, 239, 252, 149, 65, 11, 1, 80, 7, 207, 36, 149, 159, 141, 224, 197, 135, 80, 150, 176, 27, 115, 169, 229, 233, 116, 131, 113, 100, 6, 85 },
+                            PasswordHash = new byte[] { 161, 157, 126, 236, 67, 246, 112, 209, 136, 130, 69, 74, 70, 223, 254, 136, 169, 60, 206, 107, 31, 85, 226, 58, 80, 192, 61, 193, 209, 66, 52, 39 },
+                            PasswordSalt = new byte[] { 146, 226, 185, 192, 73, 143, 211, 55, 51, 234, 183, 90, 49, 24, 139, 171, 38, 137, 235, 225, 68, 154, 104, 95, 98, 63, 46, 74, 235, 62, 2, 91, 6, 64, 67, 190, 220, 33, 59, 8, 142, 95, 190, 249, 235, 168, 2, 132, 104, 57, 84, 180, 58, 1, 176, 188, 175, 29, 183, 92, 15, 199, 215, 140 },
                             Roles = 1,
+                            UserGeneralInformationId = new Guid("00000000-0000-0000-0000-000000000004"),
                             Username = "ketvirtas"
                         },
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000005"),
-                            PasswordHash = new byte[] { 170, 52, 230, 56, 245, 193, 202, 91, 106, 140, 206, 244, 92, 209, 2, 169, 227, 42, 223, 125, 242, 229, 180, 130, 164, 110, 87, 24, 38, 214, 241, 133 },
-                            PasswordSalt = new byte[] { 142, 199, 81, 152, 208, 188, 107, 16, 60, 14, 86, 195, 217, 85, 113, 115, 165, 38, 153, 107, 150, 157, 170, 3, 79, 74, 125, 12, 110, 169, 209, 77, 36, 217, 247, 173, 28, 245, 223, 45, 2, 201, 60, 20, 105, 106, 142, 222, 132, 209, 79, 180, 228, 129, 235, 90, 7, 243, 28, 60, 68, 202, 87, 167 },
-                            Roles = 0,
+                            PasswordHash = new byte[] { 214, 9, 178, 175, 14, 81, 156, 63, 12, 106, 149, 174, 185, 222, 80, 64, 106, 82, 119, 253, 118, 239, 184, 95, 23, 70, 166, 194, 207, 34, 49, 125 },
+                            PasswordSalt = new byte[] { 218, 215, 212, 101, 207, 102, 136, 135, 242, 98, 46, 254, 132, 203, 185, 48, 72, 3, 170, 75, 78, 236, 192, 7, 123, 218, 200, 174, 198, 199, 242, 17, 56, 129, 207, 236, 225, 16, 53, 30, 108, 243, 184, 53, 82, 66, 19, 32, 60, 5, 31, 219, 103, 161, 152, 171, 49, 144, 164, 218, 23, 235, 225, 157 },
+                            Roles = 1,
+                            UserGeneralInformationId = new Guid("00000000-0000-0000-0000-000000000005"),
                             Username = "penktas"
                         });
                 });
@@ -222,6 +234,7 @@ namespace AsmensRegistravimoSistemaI2.Migrations
             modelBuilder.Entity("GeneralInformation", b =>
                 {
                     b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Email")
@@ -246,17 +259,15 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                     b.Property<Guid>("UserAddressId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<long>("UserPIN")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProfilePhotoId");
+                    b.HasIndex("ProfilePhotoId")
+                        .IsUnique();
 
-                    b.HasIndex("UserId")
+                    b.HasIndex("UserAddressId")
                         .IsUnique();
 
                     b.ToTable("GeneralInfos");
@@ -271,7 +282,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                             PhoneNumber = "+37061234567",
                             ProfilePhotoId = new Guid("00000000-0000-0000-0000-000000000001"),
                             UserAddressId = new Guid("00000000-0000-0000-0000-000000000001"),
-                            UserId = new Guid("00000000-0000-0000-0000-000000000001"),
                             UserPIN = 11223344556L
                         },
                         new
@@ -283,7 +293,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                             PhoneNumber = "+37062345678",
                             ProfilePhotoId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserAddressId = new Guid("00000000-0000-0000-0000-000000000002"),
-                            UserId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserPIN = 11223344557L
                         },
                         new
@@ -295,7 +304,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                             PhoneNumber = "+37063456789",
                             ProfilePhotoId = new Guid("00000000-0000-0000-0000-000000000003"),
                             UserAddressId = new Guid("00000000-0000-0000-0000-000000000003"),
-                            UserId = new Guid("00000000-0000-0000-0000-000000000003"),
                             UserPIN = 11223344558L
                         },
                         new
@@ -307,7 +315,6 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                             PhoneNumber = "+37064567890",
                             ProfilePhotoId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserAddressId = new Guid("00000000-0000-0000-0000-000000000004"),
-                            UserId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserPIN = 11223344559L
                         },
                         new
@@ -319,62 +326,38 @@ namespace AsmensRegistravimoSistemaI2.Migrations
                             PhoneNumber = "+37065678901",
                             ProfilePhotoId = new Guid("00000000-0000-0000-0000-000000000005"),
                             UserAddressId = new Guid("00000000-0000-0000-0000-000000000005"),
-                            UserId = new Guid("00000000-0000-0000-0000-000000000005"),
                             UserPIN = 11223344550L
                         });
                 });
 
-            modelBuilder.Entity("AsmensRegistravimoSistemaI2.Models.ImageControllerModels.Image", b =>
+            modelBuilder.Entity("AsmensRegistravimoSistemaI2.Models.UserControllerModels.User", b =>
                 {
-                    b.HasOne("AsmensRegistravimoSistemaI2.Models.UserControllerModels.User", "User")
-                        .WithOne("UserImage")
-                        .HasForeignKey("AsmensRegistravimoSistemaI2.Models.ImageControllerModels.Image", "Id")
+                    b.HasOne("GeneralInformation", "UserGeneralInformation")
+                        .WithOne()
+                        .HasForeignKey("AsmensRegistravimoSistemaI2.Models.UserControllerModels.User", "UserGeneralInformationId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("User");
+                    b.Navigation("UserGeneralInformation");
                 });
 
             modelBuilder.Entity("GeneralInformation", b =>
                 {
-                    b.HasOne("AsmensRegistravimoSistemaI2.Models.InformationControllerModels.Address", "UserAddress")
-                        .WithOne("UserGeneralInformation")
-                        .HasForeignKey("GeneralInformation", "Id")
+                    b.HasOne("AsmensRegistravimoSistemaI2.Models.ImageControllerModels.Image", "GIImage")
+                        .WithOne()
+                        .HasForeignKey("GeneralInformation", "ProfilePhotoId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("AsmensRegistravimoSistemaI2.Models.ImageControllerModels.Image", "ProfilePhoto")
-                        .WithMany()
-                        .HasForeignKey("ProfilePhotoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AsmensRegistravimoSistemaI2.Models.UserControllerModels.User", "User")
-                        .WithOne("UserGeneralInformation")
-                        .HasForeignKey("GeneralInformation", "UserId")
+                    b.HasOne("AsmensRegistravimoSistemaI2.Models.InformationControllerModels.Address", "GIAddress")
+                        .WithOne()
+                        .HasForeignKey("GeneralInformation", "UserAddressId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("ProfilePhoto");
+                    b.Navigation("GIAddress");
 
-                    b.Navigation("User");
-
-                    b.Navigation("UserAddress");
-                });
-
-            modelBuilder.Entity("AsmensRegistravimoSistemaI2.Models.InformationControllerModels.Address", b =>
-                {
-                    b.Navigation("UserGeneralInformation")
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("AsmensRegistravimoSistemaI2.Models.UserControllerModels.User", b =>
-                {
-                    b.Navigation("UserGeneralInformation")
-                        .IsRequired();
-
-                    b.Navigation("UserImage")
-                        .IsRequired();
+                    b.Navigation("GIImage");
                 });
 #pragma warning restore 612, 618
         }

@@ -23,6 +23,9 @@ namespace AsmensRegistravimoSistemaI2
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddTransient<IUserMapper, UserMapper>();
             builder.Services.AddTransient<IUserService, UserService>();
+            builder.Services.AddTransient<IImageMapper, ImageMapper>();
+            builder.Services.AddTransient<IGeneralInformationMapper, GeneralInformationMapper>();
+            builder.Services.AddTransient<IAddressMapper, AddressMapper>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

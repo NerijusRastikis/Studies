@@ -14,7 +14,5 @@ namespace AsmensRegistravimoSistemaI2.Models.InformationControllerModels
         // HouseNumber string, nes gali būti namo numeris pvz. 15A
         public string HouseNumber { get; set; }
         public int ApartmentNumber { get; set; }
-
-        public GeneralInformation UserGeneralInformation { get; set; }
     }
 }

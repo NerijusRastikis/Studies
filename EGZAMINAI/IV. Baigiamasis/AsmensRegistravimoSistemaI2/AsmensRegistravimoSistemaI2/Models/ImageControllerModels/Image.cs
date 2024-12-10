@@ -9,7 +9,5 @@ namespace AsmensRegistravimoSistemaI2.Models.ImageControllerModels
         public Guid Id { get; set; }
         public string Username { get; set; }
         public byte[] Photo { get; set; }
-
-        public User User { get; set; }
     }
 }

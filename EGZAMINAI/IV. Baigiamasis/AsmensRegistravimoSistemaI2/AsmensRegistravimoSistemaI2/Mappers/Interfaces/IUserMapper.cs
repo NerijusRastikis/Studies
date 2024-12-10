@@ -5,6 +5,6 @@ namespace AsmensRegistravimoSistemaI2.Mappers.Interfaces
 {
     public interface IUserMapper
     {
-        User Map(UserDTORequest dto);
+        User Map(UserDTORequest dto, Guid id);
     }
 }

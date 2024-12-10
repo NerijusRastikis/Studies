@@ -17,14 +17,13 @@ public class GeneralInformation
     [Required]
     public string Email { get; set; }
     [Required]
-    public Image ProfilePhoto { get; set; }
+    public Address GIAddress { get; set; }
     [Required]
-    public Address UserAddress { get; set; }
 
-    public User User { get; set; }
+    public Image GIImage { get; set; }
+
 
     // Foreign Key
-    public Guid UserId { get; set; }
     public Guid ProfilePhotoId { get; set; }
     public Guid UserAddressId { get; set; }
 }

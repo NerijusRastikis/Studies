@@ -17,7 +17,7 @@ namespace AsmensRegistravimoSistemaI2.Models.UserControllerModels
         public RoleTypes Roles { get; set; } = RoleTypes.User;
 
         //Foreign Key
+        public Guid UserGeneralInformationId { get; set; }
         public GeneralInformation UserGeneralInformation { get; set; }
-        public Image UserImage { get; set; }
     }
 }

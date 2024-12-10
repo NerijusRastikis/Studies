@@ -29,7 +29,8 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
                 Username = "pirmas",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Roles = RoleTypes.User
+                Roles = RoleTypes.User,
+                UserGeneralInformationId = Guid.Parse("00000000-0000-0000-0000-000000000001")
             };
         }
         private static User Antras()
@@ -41,7 +42,8 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
                 Username = "antras",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Roles = RoleTypes.User
+                Roles = RoleTypes.User,
+                UserGeneralInformationId = Guid.Parse("00000000-0000-0000-0000-000000000002")
             };
         }
         private static User Trecias()
@@ -53,7 +55,8 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
                 Username = "trecias",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Roles = RoleTypes.Admin
+                Roles = RoleTypes.Admin,
+                UserGeneralInformationId = Guid.Parse("00000000-0000-0000-0000-000000000003")
             };
         }
         private static User Ketvirtas()
@@ -65,7 +68,8 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
                 Username = "ketvirtas",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Roles = RoleTypes.User
+                Roles = RoleTypes.User,
+                UserGeneralInformationId = Guid.Parse("00000000-0000-0000-0000-000000000004")
             };
         }
         private static User Penktas()
@@ -77,7 +81,8 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
                 Username = "penktas",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Roles = RoleTypes.Guest
+                Roles = RoleTypes.User,
+                UserGeneralInformationId = Guid.Parse("00000000-0000-0000-0000-000000000005")
             };
         }
     }

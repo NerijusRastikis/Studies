@@ -32,8 +32,12 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
             {
                 throw new ArgumentNullException(nameof(username));
             }
-
-            return _context.Users.FirstOrDefault(x => x.Username == username);
+            var selectedUser = _context.Users.FirstOrDefault(x => x.Username == username);
+            var selectedUserId = selectedUser.Id;
+            selectedUser.UserGeneralInformation = _context.GeneralInfos.FirstOrDefault(x => x.Id == selectedUserId);
+            selectedUser.UserGeneralInformation.GIAddress = _context.Addresses.FirstOrDefault(x => x.Id == selectedUserId);
+            selectedUser.UserGeneralInformation.GIImage = _context.Images.FirstOrDefault(x => x.Id == selectedUserId);
+            return selectedUser;
         }
         public List<string> GetUsers()
         {
@@ -56,9 +60,9 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
             return false;
         }
 
-        List<User> IUserRepository.GetUsers()
-        {
-            throw new NotImplementedException();
-        }
+        //List<User> IUserRepository.GetUsers()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

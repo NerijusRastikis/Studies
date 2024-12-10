@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
+    "Method": "GetUserByUsername",
+    "RelativePath": "api/User/GetUserByUsername/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/Sign Up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AsmensRegistravimoSistemaI2.DTOs.Requests.UserDTORequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
