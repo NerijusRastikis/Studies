@@ -26,26 +26,47 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
             _context.SaveChanges();
             return user.Id;
         }
-        public User? GetUser(string username)
+        public User? GetUserById(Guid id)
+        {
+            if (id != null)
+            {
+                return _context.Users.FirstOrDefault(x => x.Id == id);
+            }
+            return null;
+        }
+        public User? GetUserByUsername(string username)
         {
             if (username == null)
             {
                 throw new ArgumentNullException(nameof(username));
             }
-            var selectedUser = _context.Users.FirstOrDefault(x => x.Username == username);
-            var selectedUserId = selectedUser.Id;
-            selectedUser.UserGeneralInformation = _context.GeneralInfos.FirstOrDefault(x => x.Id == selectedUserId);
-            selectedUser.UserGeneralInformation.GIAddress = _context.Addresses.FirstOrDefault(x => x.Id == selectedUserId);
+            var selectedUser = _context.Users
+                .FirstOrDefault(x => x.Username.Trim().ToLower() == username.Trim().ToLower());
+            if (selectedUser == null)
+            {
+                return null; // CIA DAR PAGALVOK
+            }
+
+            selectedUser.GeneralInformation = _context.GeneralInfos.FirstOrDefault(x => x.Id == selectedUser.Id);
+
+            if (selectedUser.GeneralInformation != null)
+            {
+                selectedUser.GeneralInformation.GIAddress = _context.Addresses.FirstOrDefault(x => x.Id == selectedUser.Id);
+            }
+
             return selectedUser;
         }
+
         public List<string> GetUsers()
         {
-            List<string> listOfUsers = new List<string>();
-            foreach (var user in _context.Users.ToList())
-            {
-                listOfUsers.Add(user.Username);
-            }
+            List<string> listOfUsers = _context.Users.Select(u => u.Username).ToList();
             return listOfUsers;
+        }
+        public bool UpdateUser(User user)
+        {
+            _context.Users.Update(user);
+            _context.SaveChanges();
+            return true;
         }
         public bool DeleteUser(Guid id)
         {

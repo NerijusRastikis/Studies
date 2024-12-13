@@ -29,6 +29,7 @@ namespace AsmensRegistravimoSistemaI2.Mappers
                 PersonalCode = gIrequest.PersonalCode,
                 PhoneNumber = gIrequest.PhoneNumber,
                 Email = gIrequest.Email,
+                GIImage = gIrequest.ProfilePhoto,
             };
         }
     }

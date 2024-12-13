@@ -2,7 +2,6 @@
 {
     public class AddressDTOResult
     {
-        public long UserPIN { get; set; }
         public string Town { get; set; }
         public string Street { get; set; }
         // HouseNumber string, nes gali būti namo numeris pvz. 15A

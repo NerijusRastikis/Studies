@@ -22,6 +22,7 @@ namespace AsmensRegistravimoSistemaI2.Mappers
                 Username = dto.Username,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
+                Password = dto.Password,
             };
         }
     }

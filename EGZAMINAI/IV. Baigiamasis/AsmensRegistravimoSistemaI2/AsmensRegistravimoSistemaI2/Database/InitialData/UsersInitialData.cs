@@ -27,6 +27,7 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             {
                 Id = Guid.Parse("00000000-0000-0000-0000-000000000001"),
                 Username = "pirmas",
+                Password = "pirmas",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
                 Roles = RoleTypes.User,
@@ -40,6 +41,7 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             {
                 Id = Guid.Parse("00000000-0000-0000-0000-000000000002"),
                 Username = "antras",
+                Password = "antras",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
                 Roles = RoleTypes.User,
@@ -53,6 +55,7 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             {
                 Id = Guid.Parse("00000000-0000-0000-0000-000000000003"),
                 Username = "trecias",
+                Password = "trecias",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
                 Roles = RoleTypes.Admin,
@@ -66,6 +69,7 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             {
                 Id = Guid.Parse("00000000-0000-0000-0000-000000000004"),
                 Username = "ketvirtas",
+                Password = "ketvirtas",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
                 Roles = RoleTypes.User,
@@ -79,6 +83,7 @@ namespace AsmensRegistravimoSistemaI2.Database.InitialData
             {
                 Id = Guid.Parse("00000000-0000-0000-0000-000000000005"),
                 Username = "penktas",
+                Password = "penktas",
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
                 Roles = RoleTypes.User,

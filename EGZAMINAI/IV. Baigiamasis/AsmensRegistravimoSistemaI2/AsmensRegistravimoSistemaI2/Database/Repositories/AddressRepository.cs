@@ -21,5 +21,21 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
         {
             return _context.Addresses.FirstOrDefault(x => x.Id == id);
         }
+        public bool UpdateAddress(Address address)
+        {
+            _context.Addresses.Update(address);
+            return true;
+        }
+        public bool DeleteAddress(Guid id)
+        {
+            var address = _context.Addresses.Find(id);
+            if (address is not null)
+            {
+                _context.Addresses.Remove(address);
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+        }
     }
 }

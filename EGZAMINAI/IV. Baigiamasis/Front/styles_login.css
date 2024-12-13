@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        to bottom, 
+        #00C9D9,                       /* Top color */
+        #104263                        /* Bottom color */
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    text-align: center;
+}
+.index-logo {
+    padding-top: 150px;
+}
+.logo {
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #05395cb7;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.65);
+}
+input {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    margin-bottom: 5px;
+}
+.Prisijungti {
+    color: whitesmoke;
+    background-color: #104263;
+    background: linear-gradient(
+        to bottom, 
+        #0f5ee7,                       /* Top color */
+        #092538                        /* Bottom color */
+    );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.Atgal {
+    color: whitesmoke;
+    background-color: #104263;
+    background: linear-gradient(
+        to bottom, 
+        #e70f0f,                       /* Top color */
+        #092538                        /* Bottom color */
+    );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.password-input {
+    margin-bottom: 10px;
+}
+label {
+    color: whitesmoke;
+}

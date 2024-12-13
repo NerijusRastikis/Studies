@@ -1,4 +1,3 @@
-
 using AsmensRegistravimoSistemaI2.Database;
 using AsmensRegistravimoSistemaI2.Database.Interfaces;
 using AsmensRegistravimoSistemaI2.Database.Repositories;
@@ -6,6 +5,7 @@ using AsmensRegistravimoSistemaI2.Mappers;
 using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
 using AsmensRegistravimoSistemaI2.Services;
 using AsmensRegistravimoSistemaI2.Services.Interfaces;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 
 namespace AsmensRegistravimoSistemaI2
@@ -21,6 +21,7 @@ namespace AsmensRegistravimoSistemaI2
             builder.Services.AddDbContext<ARSDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("Database")));
             builder.Services.AddTransient<IUserService, UserService>();
+            builder.Services.AddTransient<IPhoneNumberConverter, PhoneNumberConverter>();
 
             builder.Services.AddTransient<IUserMapper, UserMapper>();
             builder.Services.AddTransient<IGeneralInformationMapper, GeneralInformationMapper>();
@@ -30,8 +31,22 @@ namespace AsmensRegistravimoSistemaI2
             builder.Services.AddScoped<IGIRepository, GIRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+            builder.Services.Configure<IISServerOptions>(options =>
+            {
+                options.MaxRequestBodySize = int.MaxValue;
+            });
+
+            builder.Services.Configure<FormOptions>(options =>
+            {
+                options.MultipartBodyLengthLimit = int.MaxValue;
+            });
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.OperationFilter<FileUploadOperationFilter>();
+            });
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

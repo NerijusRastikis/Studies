@@ -13,7 +13,7 @@
                 PhoneNumber = "+37061234567",
                 Email = "jonas.kalnietis@email.lt",
                 GIImage = File.ReadAllBytes(@"Images\21.jpg"),
-                UserAddressId = Guid.Parse("00000000-0000-0000-0000-000000000001"),
+                GIAddressId = Guid.Parse("00000000-0000-0000-0000-000000000001"),
             },
             new GeneralInformation
             {
@@ -24,7 +24,7 @@
                 PhoneNumber = "+37062345678",
                 Email = "egle.zieduole@email.lt",
                 GIImage = File.ReadAllBytes(@"Images\22.jpg"),
-                UserAddressId = Guid.Parse("00000000-0000-0000-0000-000000000002"),
+                GIAddressId = Guid.Parse("00000000-0000-0000-0000-000000000002"),
             },
             new GeneralInformation
             {
@@ -35,7 +35,7 @@
                 PhoneNumber = "+37063456789",
                 Email = "domas.uosis@email.lt",
                 GIImage = File.ReadAllBytes(@"Images\23.jpg"),
-                UserAddressId = Guid.Parse("00000000-0000-0000-0000-000000000003"),
+                GIAddressId = Guid.Parse("00000000-0000-0000-0000-000000000003"),
             },
             new GeneralInformation
             {
@@ -46,7 +46,7 @@
                 PhoneNumber = "+37064567890",
                 Email = "ruta.smiltele@email.lt",
                 GIImage = File.ReadAllBytes(@"Images\24.jpg"),
-                UserAddressId = Guid.Parse("00000000-0000-0000-0000-000000000004"),
+                GIAddressId = Guid.Parse("00000000-0000-0000-0000-000000000004"),
             },
             new GeneralInformation
             {
@@ -57,7 +57,7 @@
                 PhoneNumber = "+37065678901",
                 Email = "lukas.jurenas@email.lt",
                 GIImage = File.ReadAllBytes(@"Images\25.jpg"),
-                UserAddressId = Guid.Parse("00000000-0000-0000-0000-000000000005"),
+                GIAddressId = Guid.Parse("00000000-0000-0000-0000-000000000005"),
             }
         };
     }

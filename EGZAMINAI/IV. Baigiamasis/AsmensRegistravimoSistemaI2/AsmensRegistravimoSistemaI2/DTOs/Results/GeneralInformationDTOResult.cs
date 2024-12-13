@@ -12,6 +12,5 @@ namespace AsmensRegistravimoSistemaI2.DTOs.Results
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public byte[] ProfilePhoto { get; set; }
-        public Address UserAddress { get; set; }
     }
 }

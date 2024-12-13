@@ -1,8 +1,308 @@
 [
   {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.AddressController",
+    "Method": "GetAddress",
+    "RelativePath": "api/Address/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.AddressController",
+    "Method": "ChangeApartmentNumber",
+    "RelativePath": "api/Address/{id}/ApartmentNumber",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "apartmentNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.AddressController",
+    "Method": "ChangeHouseNumber",
+    "RelativePath": "api/Address/{id}/HouseNumber",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "houseNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.AddressController",
+    "Method": "ChangeStreet",
+    "RelativePath": "api/Address/{id}/Street",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "street",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.AddressController",
+    "Method": "ChangeTown",
+    "RelativePath": "api/Address/{id}/Town",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "town",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "ChangeEmail",
+    "RelativePath": "api/GeneralInformation/{id}/Email",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "ChangeFirstName",
+    "RelativePath": "api/GeneralInformation/{id}/FirstName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "ChangeLastName",
+    "RelativePath": "api/GeneralInformation/{id}/LastName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "ChangePersonalCode",
+    "RelativePath": "api/GeneralInformation/{id}/PersonalCode",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "personalCode",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "ChangePhoneNumber",
+    "RelativePath": "api/GeneralInformation/{id}/PhoneNumber",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "phoneNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "ChangeProfilePhoto",
+    "RelativePath": "api/GeneralInformation/{id}/ProfilePhoto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.GeneralInformationController",
+    "Method": "GetGI",
+    "RelativePath": "api/GeneralInformation/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
-    "Method": "GetAllUsers",
-    "RelativePath": "api/User/GetAllUsers",
+    "Method": "ChangePassword",
+    "RelativePath": "api/User/{id}/Password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
+    "Method": "ChangeUsername",
+    "RelativePath": "api/User/{id}/Username",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{username}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
+    "Method": "GetAllUsernames",
+    "RelativePath": "api/User/GetAllUsernames",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,15 +328,70 @@
   {
     "ContainingType": "AsmensRegistravimoSistemaI2.Controllers.UserController",
     "Method": "CreateUser",
-    "RelativePath": "api/User/Sign Up",
+    "RelativePath": "api/User/SignUp",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "AsmensRegistravimoSistemaI2.DTOs.Requests.UserModelDTORequest",
-        "IsRequired": true
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PersonalCode",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GIImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Town",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Street",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HouseNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApartmentNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

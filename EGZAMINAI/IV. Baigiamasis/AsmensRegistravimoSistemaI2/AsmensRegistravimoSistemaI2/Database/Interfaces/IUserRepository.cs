@@ -6,7 +6,9 @@ namespace AsmensRegistravimoSistemaI2.Database.Interfaces
     {
         Guid CreateUser(User user);
         bool DeleteUser(Guid id);
-        User? GetUser(string username);
+        User? GetUserByUsername(string username);
+        User? GetUserById(Guid id);
         List<string> GetUsers();
+        bool UpdateUser(User user);
     }
 }

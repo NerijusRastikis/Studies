@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 public class GeneralInformation
 {
+    [Key]
     public Guid Id { get; set; }
     [Required]
     public string FirstName { get; set; }
@@ -16,12 +17,11 @@ public class GeneralInformation
     [Required]
     public string Email { get; set; }
     [Required]
-    public Address GIAddress { get; set; }
-    [Required]
-
     public byte[] GIImage { get; set; }
 
+    // Foreign key to Address
+    public Guid GIAddressId { get; set; }
 
-    // Foreign Key
-    public Guid UserAddressId { get; set; }
+    // Navigation property
+    public Address GIAddress { get; set; }
 }
