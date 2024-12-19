@@ -7,7 +7,7 @@ namespace AsmensRegistravimoSistemaI2.Database
 {
     public class ARSDbContext(DbContextOptions<ARSDbContext> options) : DbContext(options)
     {
-        public bool SkipSeeding { get; set; } = true;
+        public bool SkipSeeding { get; set; } = false;
         public DbSet<User> Users { get; set; }
         public DbSet<GeneralInformation> GeneralInfos { get; set; }
         public DbSet<Address> Addresses { get; set; }

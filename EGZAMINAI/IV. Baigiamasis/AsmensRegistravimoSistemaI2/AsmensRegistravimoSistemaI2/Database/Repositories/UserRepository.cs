@@ -1,5 +1,6 @@
 ﻿using AsmensRegistravimoSistemaI2.Database.Interfaces;
 using AsmensRegistravimoSistemaI2.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace AsmensRegistravimoSistemaI2.Database.Repositories
 {
@@ -57,11 +58,19 @@ namespace AsmensRegistravimoSistemaI2.Database.Repositories
             return selectedUser;
         }
 
-        public List<string> GetUsers()
+        //public List<string> GetUsers()
+        //{
+        //    List<string> listOfUsers = _context.Users.Select(u => u.Username).ToList();
+        //    return listOfUsers;
+        //}
+        public List<User> GetUsers()
         {
-            List<string> listOfUsers = _context.Users.Select(u => u.Username).ToList();
-            return listOfUsers;
+            return _context.Users
+                .Include(u => u.GeneralInformation)  // Include the related GeneralInformation data
+                .ThenInclude(gi => gi.GIAddress)    // Include Address data related to GeneralInformation
+                .ToList();
         }
+
         public bool UpdateUser(User user)
         {
             _context.Users.Update(user);

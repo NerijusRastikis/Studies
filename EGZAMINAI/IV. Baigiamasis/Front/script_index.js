@@ -1,4 +1,5 @@
 const showLogo = () => {
+    sessionStorage.clear();
     const logoSection = document.createElement("section");
     logoSection.classList.add("logo-section");
 

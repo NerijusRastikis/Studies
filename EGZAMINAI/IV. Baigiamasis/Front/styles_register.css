@@ -63,6 +63,7 @@ button {
     padding: 12px 24px;
     border-radius: 4px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 .cancel {
     color: whitesmoke;
@@ -134,4 +135,49 @@ button {
     background-color: #30c835;
     transition: width 0.4s ease;
     z-index: 0;
+}
+.proceed {
+    color: whitesmoke;
+    background-color: #104263;
+    background: linear-gradient(
+        to bottom, 
+        #0f5ee7,                       /* Top color */
+        #092538                        /* Bottom color */
+    );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.back {
+    color: whitesmoke;
+    background-color: #104263;
+    background: linear-gradient(
+        to bottom, 
+        #ecd829,                       /* Top color */
+        #092538                        /* Bottom color */
+    );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.user-section,
+.form-section,
+.address-section,
+.buttons-section {
+    display: none;
+}
+
+.progress-line-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;           /* Make sure it's above other elements */
+    padding: 10px 0;         /* Optional padding for better spacing */
+}
+img, h2 {
+    margin-top: 60px;
+}
+.username, .firstname, .town {
+    position: relative;
+    left: -55px
+}
+.photoInput {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }

@@ -1,7 +1,7 @@
 ﻿using AsmensRegistravimoSistemaI2.Database.Interfaces;
 using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
 using AsmensRegistravimoSistemaI2.Services.Interfaces;
-using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

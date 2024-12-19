@@ -1,17 +1,22 @@
-﻿using AsmensRegistravimoSistemaI2.Database.Interfaces;
+﻿using AsmensRegistravimoSistemaI2.Attributes;
+using AsmensRegistravimoSistemaI2.Database.Interfaces;
 using AsmensRegistravimoSistemaI2.DTOs.Requests;
 using AsmensRegistravimoSistemaI2.Mappers.Interfaces;
 using AsmensRegistravimoSistemaI2.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Mime;
 
 namespace AsmensRegistravimoSistemaI2.Controllers
 {
     [Route("api/[controller]")]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [ApiController]
     public class UserController : ControllerBase
     {
         private readonly ILogger<UserController> _logger;
         private readonly IUserService _userService;
+        private readonly IJwtService _jwtService;
 
         private readonly IUserRepository _userRepo;
         private readonly IGIRepository _giRepo;
@@ -28,7 +33,8 @@ namespace AsmensRegistravimoSistemaI2.Controllers
                               IAddressMapper addressMap,
                               IGIRepository giRepo,
                               IAddressRepository addressRepo,
-                              IUserService userService)
+                              IUserService userService,
+                              IJwtService jwtService)
         {
             _logger = logger;
             _userRepo = context;
@@ -38,7 +44,11 @@ namespace AsmensRegistravimoSistemaI2.Controllers
             _giRepo = giRepo;
             _addressRepo = addressRepo;
             _userService = userService;
+            _jwtService = jwtService;
         }
+        [Produces(MediaTypeNames.Text.Plain)]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [HttpPost("SignUp")]
         public async Task<IActionResult> CreateUser([FromForm] UserModelDTORequest request)
         {
@@ -63,11 +73,16 @@ namespace AsmensRegistravimoSistemaI2.Controllers
             byte[] imageBytes = null;
             if (request.GIImage != null)
             {
+                _logger.LogInformation("Received image with size: {0} bytes", request.GIImage.Length);
                 using (var memoryStream = new MemoryStream())
                 {
                     await request.GIImage.CopyToAsync(memoryStream);
                     imageBytes = memoryStream.ToArray();
                 }
+            }
+            else
+            {
+                _logger.LogWarning("No image received during sign-up.");
             }
 
             var newGIDTO = new GeneralInformationDTORequest
@@ -100,11 +115,32 @@ namespace AsmensRegistravimoSistemaI2.Controllers
 
             return Ok(userId);
         }
-
-        [HttpGet("GetAllUsernames")]
-        public IActionResult GetAllUsernames()
+        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Produces(MediaTypeNames.Text.Plain)]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [HttpPost("Login")]
+        public IActionResult Login(UserDTORequest request)
         {
-            _logger.LogInformation("User is getting all system usernames.");
+            var user = _userRepo.GetUserByUsername(request.Username);
+            if (user == null)
+            {
+                return BadRequest("User not found.");
+            }
+            var isPasswordValid = _userService.VerifyPasswordHash(request.Password, user.PasswordHash, user.PasswordSalt);
+            if (!isPasswordValid)
+            {
+                return BadRequest("Invalid username of password.");
+            }
+            var jwt = _jwtService.GetJwtToken(user);
+            return Ok(jwt);
+        }
+        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [HttpGet("GetAllUsers")]
+        public IActionResult GetAllUsers()
+        {
+            _logger.LogInformation("User is getting all system users.");
             var listOfUsers = _userRepo.GetUsers();
             if (listOfUsers is not null)
             {
@@ -112,6 +148,8 @@ namespace AsmensRegistravimoSistemaI2.Controllers
             }
             return Ok();
         }
+        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [HttpGet("GetUserByUsername/{username}")]
         public IActionResult GetUserByUsername(string username)
         {
@@ -123,10 +161,12 @@ namespace AsmensRegistravimoSistemaI2.Controllers
             }
             return Ok();
         }
-        [HttpDelete("{username}")]
-        public IActionResult DeleteUser(string username)
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUser(Guid id)
         {
-            var targetUser = _userRepo.GetUserByUsername(username);
+            var targetUser = _userRepo.GetUserById(id);
             if (targetUser == null)
             {
                 return NotFound();
